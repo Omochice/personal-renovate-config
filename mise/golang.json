@@ -1,0 +1,20 @@
+{
+	"$schema": "https://docs.renovatebot.com/renovate-schema.json",
+	"customManagers": [
+		{
+			"customType": "regex",
+			"fileMatch": [
+				"^.mise.toml$",
+				".mise/config.toml$",
+				".config/mise.toml$",
+				".config/mise/config.toml$"
+			],
+			"matchStrings": [
+				"golang\\s*=\\s*\"v?(?<currentValue>\\S+)\"\\s*#\\s*renovate:\\s*mise",
+				"golang\\s*=\\s*'v?(?<currentValue>\\S+)'\\s*#\\s*renovate:\\s*mise"
+			],
+			"datasourceTemplate": "github-tag",
+			"depNameTemplate": "golang/go"
+		}
+	]
+}

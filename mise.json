@@ -1,0 +1,10 @@
+{
+	"$schema": "https://docs.renovatebot.com/renovate-schema.json",
+	"extends": [
+		"github>Omochice/personal-renovate-config//mise/golang",
+		"github>Omochice/personal-renovate-config//mise/nodejs",
+		"github>Omochice/personal-renovate-config//mise/python",
+		"github>Omochice/personal-renovate-config//mise/ruby",
+		"github>Omochice/personal-renovate-config//mise/rust"
+	]
+}

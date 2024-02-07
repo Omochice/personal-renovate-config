@@ -1,0 +1,20 @@
+{
+	"$schema": "https://docs.renovatebot.com/renovate-schema.json",
+	"customManagers": [
+		{
+			"customType": "regex",
+			"fileMatch": [
+				"^.mise.toml$",
+				".mise/config.toml$",
+				".config/mise.toml$",
+				".config/mise/config.toml$"
+			],
+			"matchStrings": [
+				"rust\\s*=\\s*\"v?(?<currentValue>\\S+)\"\\s*#\\s*renovate:\\s*mise",
+				"rust\\s*=\\s*'v?(?<currentValue>\\S+)'\\s*#\\s*renovate:\\s*mise"
+			],
+			"datasourceTemplate": "github-tag",
+			"depNameTemplate": "rust-lang/rust"
+		}
+	]
+}
