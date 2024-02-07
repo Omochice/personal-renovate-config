@@ -1,0 +1,12 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "customManagers": [
+    {
+      "customType": "regex",
+      "matchStrings": [
+        "python = \".+\"  # renovate: mise"
+      ],
+      "datasourceTemplate": "npm"
+    }
+  ]
+}
