@@ -1,0 +1,26 @@
+{
+  "name": "@Omochice/personal-renovate-config",
+  "version": "0.0.1",
+  "private": true,
+  "description": "renovate configuration for me(experimental)",
+  "keywords": [
+    "renovate"
+  ],
+  "license": "zlib",
+  "author": "Omochice",
+  "scripts": {
+    "test": "npm-run-all test:validate test:regex",
+    "test:validate": "renovate-config-validator --strict mise.json mise/*.json",
+    "test:regex": "vitest run",
+    "fmt": "npm-run-all fmt:package fmt:json",
+    "fmt:package": "sort-package-json",
+    "fmt:json": "biome format ./ --write"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "^1.2.2",
+    "npm-run-all": "^4.1.5",
+    "renovate": "^37.27.0",
+    "sort-package-json": "^2.6.0",
+    "vitest": "^1.0.0"
+  }
+}
