@@ -1,0 +1,10 @@
+{
+  "private": true,
+	"devDependencies": {
+		"biome": "^0.3.3",
+		"npm-run-all2": "^6.1.2",
+		"renovate": "^37.175.0",
+		"sort-package-json": "^2.7.0",
+		"vitest": "^1.2.2"
+	}
+}
