@@ -7,7 +7,8 @@
 				"^.mise.toml$",
 				".mise/config.toml$",
 				".config/mise.toml$",
-				".config/mise/config.toml$"
+				".config/mise/config.toml$",
+				"mise/config.toml$"
 			],
 			"matchStrings": [
 				"python\\s*=\\s*\"v?(?<currentValue>\\S+)\"\\s*#\\s*renovate:\\s*mise",
