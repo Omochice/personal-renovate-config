@@ -11,8 +11,8 @@
 				"mise/config.toml$"
 			],
 			"matchStrings": [
-				"golang\\s*=\\s*\"v?(?<currentValue>\\S+)\"\\s*#\\s*renovate:\\s*mise",
-				"golang\\s*=\\s*'v?(?<currentValue>\\S+)'\\s*#\\s*renovate:\\s*mise"
+				"go(?:lang)?\\s*=\\s*\"v?(?<currentValue>\\S+)\"\\s*#\\s*renovate:\\s*mise",
+				"go(?:lang)?\\s*=\\s*'v?(?<currentValue>\\S+)'\\s*#\\s*renovate:\\s*mise"
 			],
 			"datasourceTemplate": "github-tag",
 			"depNameTemplate": "golang/go"
