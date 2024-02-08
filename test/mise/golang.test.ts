@@ -28,17 +28,22 @@ describe("golang", () => {
 	const testCases = [
 		{
 			it: 'should parse quote with "',
-			input: 'golang = "1.21.6"  # renovate: mise',
+			input: 'go = "1.21.6"  # renovate: mise',
+			currentValue: "1.21.6",
+		},
+		{
+			it: 'should accept "golang" too',
+			input: 'go = "1.21.6"  # renovate: mise',
 			currentValue: "1.21.6",
 		},
 		{
 			it: "should perse even if it includes 'v' too",
-			input: 'golang = "v1.21.6"  # renovate: mise',
+			input: 'go = "v1.21.6"  # renovate: mise',
 			currentValue: "1.21.6",
 		},
 		{
 			it: "should perse even if it is quoted with single quote too",
-			input: "golang = '1.22.0'  # renovate: mise",
+			input: "go = '1.22.0'  # renovate: mise",
 			currentValue: "1.22.0",
 		},
 	] as const;
