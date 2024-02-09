@@ -33,7 +33,7 @@ describe("golang", () => {
 		},
 		{
 			it: 'should accept "golang" too',
-			input: 'go = "1.21.6"  # renovate: mise',
+			input: 'golang = "1.21.6"  # renovate: mise',
 			currentValue: "1.21.6",
 		},
 		{
