@@ -14,7 +14,7 @@
 				"rust\\s*=\\s*\"v?(?<currentValue>\\S+)\"\\s*#\\s*renovate:\\s*mise",
 				"rust\\s*=\\s*'v?(?<currentValue>\\S+)'\\s*#\\s*renovate:\\s*mise"
 			],
-			"datasourceTemplate": "github-tag",
+			"datasourceTemplate": "github-tags",
 			"depNameTemplate": "rust-lang/rust"
 		}
 	]
