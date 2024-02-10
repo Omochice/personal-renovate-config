@@ -14,6 +14,7 @@
 				"go(?:lang)?\\s*=\\s*\"v?(?<currentValue>\\S+)\"\\s*#\\s*renovate:\\s*mise",
 				"go(?:lang)?\\s*=\\s*'v?(?<currentValue>\\S+)'\\s*#\\s*renovate:\\s*mise"
 			],
+			"currentValueTemplate": "go{{{ currentValue }}}",
 			"datasourceTemplate": "github-tags",
 			"depNameTemplate": "golang/go"
 		}
