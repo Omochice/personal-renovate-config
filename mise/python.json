@@ -15,7 +15,8 @@
 				"python\\s*=\\s*'v?(?<currentValue>\\S+)'\\s*#\\s*renovate:\\s*mise"
 			],
 			"datasourceTemplate": "github-tags",
-			"depNameTemplate": "python/cpython"
+			"depNameTemplate": "python/cpython",
+			"currentValueTemplate": "v{{{ currentValue }}}"
 		}
 	]
 }
