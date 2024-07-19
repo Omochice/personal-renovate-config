@@ -1,8 +1,9 @@
 import { expect, expectTypeOf, describe, it } from "vitest";
 import config from "../../mise/python.json";
+import RE2 from "re2";
 
-const regexps: RegExp[][] = config.customManagers.map((c) =>
-	c.matchStrings.map((re) => new RegExp(re)),
+const regexps: RE2[][] = config.customManagers.map((c) =>
+	c.matchStrings.map((re) => new RE2(re)),
 );
 
 describe("check configuration existing", () => {
@@ -10,7 +11,7 @@ describe("check configuration existing", () => {
 		expect(Array.isArray(config));
 	});
 	it("should be array of regexp", () => {
-		expectTypeOf(regexps).toEqualTypeOf<RegExp[][]>();
+		expectTypeOf(regexps).toEqualTypeOf<RE2[][]>();
 	});
 });
 
@@ -35,7 +36,7 @@ describe("python", () => {
 
 	for (const testCase of testCases) {
 		it(testCase.it, () => {
-			const re = regexps[0].map((r) => new RegExp(r, "gm"));
+			const re = regexps[0].map((r) => new RE2(r, "gm"));
 			const matches = re
 				.map((r) => Array.from(testCase.input.matchAll(r)).map((e) => e.groups))
 				.filter((match) => match.length !== 0)
