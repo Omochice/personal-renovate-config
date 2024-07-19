@@ -1,18 +1,8 @@
 import { expect, expectTypeOf, describe, it } from "vitest";
-import { readFileSync } from "node:fs";
-import { dirname, join } from "node:path";
+import config from "../../mise/golang.json";
 
-const repositoryRoot = dirname(dirname(__dirname));
-
-const file = readFileSync(
-	join(repositoryRoot, "mise", "golang.json"),
-).toString();
-const config: string[][] = JSON.parse(file)?.customManagers?.map(
-	(manager: { matchStrings?: string[] }) => manager.matchStrings,
-);
-
-const regexps: RegExp[][] = config.map((matchStrings: string[]) =>
-	matchStrings.map((re) => new RegExp(re)),
+const regexps: RegExp[][] = config.customManagers.map((c) =>
+	c.matchStrings.map((re) => new RegExp(re)),
 );
 
 describe("check configuration existing", () => {
