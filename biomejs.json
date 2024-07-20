@@ -1,14 +1,14 @@
 {
-  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
-  "customManagers": [
-    {
-      "customType": "regex",
-      "fileMatch": "biome.jsonc?$",
-      "matchStrings": [
-        "\"\\$schema\": \"https:\/\/biomejs\\.dev\/schemas\/(?<currentValue>\\d+?\\.\\d+?.\\d+?)/schema\\.json\""
-      ],
-      "datasourceTemplate": "npm",
-      "depNameTemplate": "@biomejs/biome"
-    }
-  ]
+	"$schema": "https://docs.renovatebot.com/renovate-schema.json",
+	"customManagers": [
+		{
+			"customType": "regex",
+			"fileMatch": "biome.jsonc?$",
+			"matchStrings": [
+				"\"\\$schema\": \"https://biomejs\\.dev/schemas/(?<currentValue>\\d+?\\.\\d+?.\\d+?)/schema\\.json\""
+			],
+			"datasourceTemplate": "npm",
+			"depNameTemplate": "@biomejs/biome"
+		}
+	]
 }
