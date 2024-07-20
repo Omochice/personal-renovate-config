@@ -1,26 +1,17 @@
 import { expect, expectTypeOf, describe, it } from "vitest";
-import { readFileSync } from "node:fs";
-import { dirname, join } from "node:path";
+import config from "../../mise/golang.json";
+import RE2 from "re2";
 
-const repositoryRoot = dirname(dirname(__dirname));
-
-const file = readFileSync(
-	join(repositoryRoot, "mise", "golang.json"),
-).toString();
-const config: string[][] = JSON.parse(file)?.customManagers?.map(
-	(manager: { matchStrings?: string[] }) => manager.matchStrings,
-);
-
-const regexps: RegExp[][] = config.map((matchStrings: string[]) =>
-	matchStrings.map((re) => new RegExp(re)),
+const regexps: RE2[][] = config.customManagers.map((c) =>
+	c.matchStrings.map((re) => new RE2(re)),
 );
 
 describe("check configuration existing", () => {
 	it("should be array", () => {
 		expect(Array.isArray(config));
 	});
-	it("should be array of regexp", () => {
-		expectTypeOf(regexps).toEqualTypeOf<RegExp[][]>();
+	it("should be array of RE2", () => {
+		expectTypeOf(regexps).toEqualTypeOf<RE2[][]>();
 	});
 });
 
@@ -50,7 +41,7 @@ describe("golang", () => {
 
 	for (const testCase of testCases) {
 		it(testCase.it, () => {
-			const re = regexps[0].map((r) => new RegExp(r, "gm"));
+			const re = regexps[0].map((r) => new RE2(r, "gm"));
 			const matches = re
 				.map((r) => Array.from(testCase.input.matchAll(r)).map((e) => e.groups))
 				.filter((match) => match.length !== 0)
