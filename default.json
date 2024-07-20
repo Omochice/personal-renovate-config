@@ -3,7 +3,11 @@
 	"extends": [
 		"config:recommended",
 		":timezone(Asia/Tokyo)",
-		":semanticCommits"
+		":semanticCommits",
+		"github>Omochice/personal-renovate-config//biome",
+		"github>Omochice/personal-renovate-config//mise",
+		"github>Omochice/personal-renovate-config//playwright",
+		"github>Omochice/personal-renovate-config//replacement"
 	],
 	"packageRules": [
 		{
