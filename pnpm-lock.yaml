@@ -19,7 +19,7 @@ importers:
         version: 1.21.3
       renovate:
         specifier: ^37.27.0
-        version: 37.438.2(@aws-sdk/client-sso-oidc@3.606.0(@aws-sdk/client-sts@3.606.0))(encoding@0.1.13)(typanion@3.14.0)
+        version: 37.438.4(@aws-sdk/client-sso-oidc@3.606.0(@aws-sdk/client-sts@3.606.0))(encoding@0.1.13)(typanion@3.14.0)
       sort-package-json:
         specifier: ^2.6.0
         version: 2.10.0
@@ -1870,8 +1870,8 @@ packages:
   git-up@7.0.0:
     resolution: {integrity: sha512-ONdIrbBCFusq1Oy0sC71F5azx8bVkvtZtMJAsv+a6lz5YAmbNnLD6HAB4gptHZVLPR8S2/kVN6Gab7lryq5+lQ==}
 
-  git-url-parse@14.0.0:
-    resolution: {integrity: sha512-NnLweV+2A4nCvn4U/m2AoYu0pPKlsmhK9cknG7IMwsjFY1S2jxM+mAhsDxyxfCIGfGaD+dozsyX4b6vkYc83yQ==}
+  git-url-parse@14.1.0:
+    resolution: {integrity: sha512-8xg65dTxGHST3+zGpycMMFZcoTzAdZ2dOtu4vmgIfkTFnVHBxHMzBC2L1k8To7EmrSiHesT8JgPLT91VKw1B5g==}
 
   github-from-package@0.0.0:
     resolution: {integrity: sha512-SyHy3T1v2NUXn29OsWdxmK6RwHD+vkj3v8en8AOBZ1wBQ/hCAQ5bAQTD02kW4W9tUp/3Qh6J8r9EvntiyCmOOw==}
@@ -2890,8 +2890,8 @@ packages:
   remark@13.0.0:
     resolution: {integrity: sha512-HDz1+IKGtOyWN+QgBiAT0kn+2s6ovOxHyPAFGKVE81VSzJ+mq7RwHFledEvB5F1p4iJvOah/LOKdFuzvRnNLCA==}
 
-  renovate@37.438.2:
-    resolution: {integrity: sha512-Nocu5uzQE/bdOk3nz6y+ByDz0kIjw9FAnpLkEMiDgwGJn1KFYgYOqtbfPtt+Pd2Z+ibn/v9oEyadStrmjLJ/BA==}
+  renovate@37.438.4:
+    resolution: {integrity: sha512-zhkp8MVHqQyb6fmljsWTpHe339kyApg8UqW1Ni/4RcUFq9W+TQjJHbqrI3T3jQtqpmZHwjJsCWv+8M05r0o2OA==}
     engines: {node: ^18.12.0 || >=20.0.0, pnpm: ^9.0.0}
     hasBin: true
 
@@ -6222,7 +6222,7 @@ snapshots:
       is-ssh: 1.4.0
       parse-url: 8.1.0
 
-  git-url-parse@14.0.0:
+  git-url-parse@14.1.0:
     dependencies:
       git-up: 7.0.0
 
@@ -7333,7 +7333,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  renovate@37.438.2(@aws-sdk/client-sso-oidc@3.606.0(@aws-sdk/client-sts@3.606.0))(encoding@0.1.13)(typanion@3.14.0):
+  renovate@37.438.4(@aws-sdk/client-sso-oidc@3.606.0(@aws-sdk/client-sts@3.606.0))(encoding@0.1.13)(typanion@3.14.0):
     dependencies:
       '@aws-sdk/client-codecommit': 3.606.0
       '@aws-sdk/client-ec2': 3.606.0
@@ -7388,7 +7388,7 @@ snapshots:
       find-packages: 10.0.4
       find-up: 5.0.0
       fs-extra: 11.2.0
-      git-url-parse: 14.0.0
+      git-url-parse: 14.1.0
       github-url-from-git: 1.5.0
       glob: 10.4.5
       global-agent: 3.0.0
