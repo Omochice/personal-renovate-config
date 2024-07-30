@@ -19,7 +19,7 @@ importers:
         version: 1.21.3
       renovate:
         specifier: ^38.0.0
-        version: 38.11.1(@aws-sdk/client-sso-oidc@3.606.0(@aws-sdk/client-sts@3.606.0))(encoding@0.1.13)(typanion@3.14.0)
+        version: 38.12.0(@aws-sdk/client-sso-oidc@3.606.0(@aws-sdk/client-sts@3.606.0))(encoding@0.1.13)(typanion@3.14.0)
       sort-package-json:
         specifier: ^2.6.0
         version: 2.10.0
@@ -2041,8 +2041,8 @@ packages:
   immediate@3.0.6:
     resolution: {integrity: sha512-XXOFtyqDjNDAQxVfYxuF7g9Il/IbWmmlQg2MYKOH8ExIT1qg6xc4zyS3HaEEATgs1btfzxq15ciUiY7gjSXRGQ==}
 
-  import-in-the-middle@1.10.0:
-    resolution: {integrity: sha512-Z1jumVdF2GwnnYfM0a/y2ts7mZbwFMgt5rRuVmLgobgahC6iKgN5MBuXjzfTIOUpq5LSU10vJIPpVKe0X89fIw==}
+  import-in-the-middle@1.11.0:
+    resolution: {integrity: sha512-5DimNQGoe0pLUHbR9qK84iWaWjjbsxiqXnw6Qz64+azRgleqv9k2kTt5fw7QsOpmaGYtuxxursnPPsnTKEx10Q==}
 
   imurmurhash@0.1.4:
     resolution: {integrity: sha512-JmXMZ6wuvDmLiHEml9ykzqO6lwFbof0GG4IkcGaENdCRDDmMVnny7s5HsIgHCbaq0w2MyPhDqkhTUgS2LU2PHA==}
@@ -2899,8 +2899,8 @@ packages:
   remark@13.0.0:
     resolution: {integrity: sha512-HDz1+IKGtOyWN+QgBiAT0kn+2s6ovOxHyPAFGKVE81VSzJ+mq7RwHFledEvB5F1p4iJvOah/LOKdFuzvRnNLCA==}
 
-  renovate@38.11.1:
-    resolution: {integrity: sha512-8/FBf9eUz9b3s3jzRxlKIPI0oB4GNORqlNivlK9xz2n91sGsoFdjmx4o0hB4BViaq2egbNt+5CbOShc5yc61Ng==}
+  renovate@38.12.0:
+    resolution: {integrity: sha512-L2Hyl78NCDIV/MqLkSpXlAjvQpDMLKH6E/9qHW0w9zGvO94FME4YMVWoJyJTq2R81jvTDnhaLC2dmCk+0RlqwQ==}
     engines: {node: ^20.15.1, pnpm: ^9.0.0}
     hasBin: true
 
@@ -4661,7 +4661,7 @@ snapshots:
       '@opentelemetry/api': 1.9.0
       '@opentelemetry/api-logs': 0.52.1
       '@types/shimmer': 1.2.0
-      import-in-the-middle: 1.10.0
+      import-in-the-middle: 1.11.0
       require-in-the-middle: 7.4.0
       semver: 7.6.3
       shimmer: 1.2.1
@@ -6428,7 +6428,7 @@ snapshots:
 
   immediate@3.0.6: {}
 
-  import-in-the-middle@1.10.0:
+  import-in-the-middle@1.11.0:
     dependencies:
       acorn: 8.12.1
       acorn-import-attributes: 1.9.5(acorn@8.12.1)
@@ -7341,7 +7341,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  renovate@38.11.1(@aws-sdk/client-sso-oidc@3.606.0(@aws-sdk/client-sts@3.606.0))(encoding@0.1.13)(typanion@3.14.0):
+  renovate@38.12.0(@aws-sdk/client-sso-oidc@3.606.0(@aws-sdk/client-sts@3.606.0))(encoding@0.1.13)(typanion@3.14.0):
     dependencies:
       '@aws-sdk/client-codecommit': 3.606.0
       '@aws-sdk/client-ec2': 3.606.0
