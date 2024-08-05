@@ -19,7 +19,7 @@ importers:
         version: 1.21.3
       renovate:
         specifier: ^38.0.0
-        version: 38.18.16(@aws-sdk/client-sso-oidc@3.621.0(@aws-sdk/client-sts@3.621.0))(encoding@0.1.13)(typanion@3.14.0)
+        version: 38.18.17(@aws-sdk/client-sso-oidc@3.621.0(@aws-sdk/client-sts@3.621.0))(encoding@0.1.13)(typanion@3.14.0)
       sort-package-json:
         specifier: ^2.6.0
         version: 2.10.0
@@ -1212,8 +1212,8 @@ packages:
     engines: {node: '>=0.4.0'}
     hasBin: true
 
-  adm-zip@0.5.14:
-    resolution: {integrity: sha512-DnyqqifT4Jrcvb8USYjp6FHtBpEIz1mnXu6pTRHZ0RL69LbQYiO+0lDFg5+OKA7U29oWSs3a/i8fhn8ZcceIWg==}
+  adm-zip@0.5.15:
+    resolution: {integrity: sha512-jYPWSeOA8EFoZnucrKCNihqBjoEGQSU4HKgHYQgKNEQ0pQF9a/DYuo/+fAxY76k4qe75LUlLWpAM1QWcBMTOKw==}
     engines: {node: '>=12.0'}
 
   agent-base@7.1.1:
@@ -2868,8 +2868,8 @@ packages:
   remark@13.0.0:
     resolution: {integrity: sha512-HDz1+IKGtOyWN+QgBiAT0kn+2s6ovOxHyPAFGKVE81VSzJ+mq7RwHFledEvB5F1p4iJvOah/LOKdFuzvRnNLCA==}
 
-  renovate@38.18.16:
-    resolution: {integrity: sha512-kj4n0liI8tan5ptEYAobPB3p2XBE3T9Ijz02HOjacdZkDHBfDNszV+HlCTj5J1rQnyRBGHX5KHqB1LaCNppo5A==}
+  renovate@38.18.17:
+    resolution: {integrity: sha512-OOjYjiCsDFV62yMZe+eY9x+3BkpCP+5hwVOiXjwRg0Sbw+0rtomgssVSyLMaAKq9CX/7M2tSUJujLqnzYpu/Ow==}
     engines: {node: ^20.15.1, pnpm: ^9.0.0}
     hasBin: true
 
@@ -4783,7 +4783,7 @@ snapshots:
     dependencies:
       '@octokit/rest': 20.1.1
       '@renovatebot/osv-offline-db': 1.6.0
-      adm-zip: 0.5.14
+      adm-zip: 0.5.15
       fs-extra: 11.2.0
       got: 11.8.6
       luxon: 3.4.4
@@ -5375,7 +5375,7 @@ snapshots:
 
   acorn@8.12.1: {}
 
-  adm-zip@0.5.14: {}
+  adm-zip@0.5.15: {}
 
   agent-base@7.1.1:
     dependencies:
@@ -7178,7 +7178,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  renovate@38.18.16(@aws-sdk/client-sso-oidc@3.621.0(@aws-sdk/client-sts@3.621.0))(encoding@0.1.13)(typanion@3.14.0):
+  renovate@38.18.17(@aws-sdk/client-sso-oidc@3.621.0(@aws-sdk/client-sts@3.621.0))(encoding@0.1.13)(typanion@3.14.0):
     dependencies:
       '@aws-sdk/client-codecommit': 3.621.0
       '@aws-sdk/client-ec2': 3.621.0
