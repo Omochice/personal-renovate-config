@@ -19,7 +19,7 @@ importers:
         version: 1.21.3
       renovate:
         specifier: ^38.0.0
-        version: 38.32.0(@aws-sdk/client-sso-oidc@3.621.0(@aws-sdk/client-sts@3.621.0))(encoding@0.1.13)(typanion@3.14.0)
+        version: 38.32.1(@aws-sdk/client-sso-oidc@3.621.0(@aws-sdk/client-sts@3.621.0))(encoding@0.1.13)(typanion@3.14.0)
       sort-package-json:
         specifier: ^2.6.0
         version: 2.10.0
@@ -1151,8 +1151,8 @@ packages:
   '@types/treeify@1.0.3':
     resolution: {integrity: sha512-hx0o7zWEUU4R2Amn+pjCBQQt23Khy/Dk56gQU5xi5jtPL1h83ACJCeFaB2M/+WO1AntvWrSoVnnCAfI1AQH4Cg==}
 
-  '@types/unist@2.0.10':
-    resolution: {integrity: sha512-IfYcSBWE3hLpBg8+X2SEa8LVkJdJEkT2Ese2aaLs3ptGdVtABxndrMaxuFlQ1qdFf9Q5rDvDpxI3WwgvKFAsQA==}
+  '@types/unist@2.0.11':
+    resolution: {integrity: sha512-CmBKiL6NNo/OqgmMn95Fk9Whlp2mtvIv+KNpQKN2F4SjvrEesubTRWGYSg+BnWZOnlCaSTU1sMpsBOzgbYhnsA==}
 
   '@types/yauzl@2.10.3':
     resolution: {integrity: sha512-oJoftv0LSuaDZE3Le4DbKX+KS9G36NzOeSap90UIK0yMA/NhKJhqlSGtNDORNRaIbQfzjXDrQa0ytJ6mNRGz/Q==}
@@ -2876,8 +2876,8 @@ packages:
   remark@13.0.0:
     resolution: {integrity: sha512-HDz1+IKGtOyWN+QgBiAT0kn+2s6ovOxHyPAFGKVE81VSzJ+mq7RwHFledEvB5F1p4iJvOah/LOKdFuzvRnNLCA==}
 
-  renovate@38.32.0:
-    resolution: {integrity: sha512-+5h+7EyvIM7dfxMBiMnsxVP/aUvXywS1vGncZKHfKbkxutz5RiJjA1emYY5Fh80CajnxSxiJnLrU8HY5Czlrtg==}
+  renovate@38.32.1:
+    resolution: {integrity: sha512-forg9Bz8F6GWGDLaNGqbnu7qTvB8H/D/uWdZlH9aJ9lzgInlZ8eMpJpthPAYG4IcoO9CR/Mnko6HnIzeD/Yvkw==}
     engines: {node: ^20.15.1, pnpm: ^9.0.0}
     hasBin: true
 
@@ -5250,7 +5250,7 @@ snapshots:
 
   '@types/mdast@3.0.15':
     dependencies:
-      '@types/unist': 2.0.10
+      '@types/unist': 2.0.11
 
   '@types/minimist@1.2.5': {}
 
@@ -5272,7 +5272,7 @@ snapshots:
 
   '@types/treeify@1.0.3': {}
 
-  '@types/unist@2.0.10': {}
+  '@types/unist@2.0.11': {}
 
   '@types/yauzl@2.10.3':
     dependencies:
@@ -6618,7 +6618,7 @@ snapshots:
 
   mdast-util-to-markdown@0.6.5:
     dependencies:
-      '@types/unist': 2.0.10
+      '@types/unist': 2.0.11
       longest-streak: 2.0.4
       mdast-util-to-string: 2.0.0
       parse-entities: 2.0.0
@@ -7189,7 +7189,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  renovate@38.32.0(@aws-sdk/client-sso-oidc@3.621.0(@aws-sdk/client-sts@3.621.0))(encoding@0.1.13)(typanion@3.14.0):
+  renovate@38.32.1(@aws-sdk/client-sso-oidc@3.621.0(@aws-sdk/client-sts@3.621.0))(encoding@0.1.13)(typanion@3.14.0):
     dependencies:
       '@aws-sdk/client-codecommit': 3.621.0
       '@aws-sdk/client-ec2': 3.621.0
@@ -7717,7 +7717,7 @@ snapshots:
 
   unified@9.2.2:
     dependencies:
-      '@types/unist': 2.0.10
+      '@types/unist': 2.0.11
       bail: 1.0.5
       extend: 3.0.2
       is-buffer: 2.0.5
@@ -7737,16 +7737,16 @@ snapshots:
 
   unist-util-stringify-position@2.0.3:
     dependencies:
-      '@types/unist': 2.0.10
+      '@types/unist': 2.0.11
 
   unist-util-visit-parents@3.1.1:
     dependencies:
-      '@types/unist': 2.0.10
+      '@types/unist': 2.0.11
       unist-util-is: 4.1.0
 
   unist-util-visit@2.0.3:
     dependencies:
-      '@types/unist': 2.0.10
+      '@types/unist': 2.0.11
       unist-util-is: 4.1.0
       unist-util-visit-parents: 3.1.1
 
@@ -7779,12 +7779,12 @@ snapshots:
 
   vfile-message@2.0.4:
     dependencies:
-      '@types/unist': 2.0.10
+      '@types/unist': 2.0.11
       unist-util-stringify-position: 2.0.3
 
   vfile@4.2.1:
     dependencies:
-      '@types/unist': 2.0.10
+      '@types/unist': 2.0.11
       is-buffer: 2.0.5
       unist-util-stringify-position: 2.0.3
       vfile-message: 2.0.4
