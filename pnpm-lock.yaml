@@ -19,7 +19,7 @@ importers:
         version: 1.21.4
       renovate:
         specifier: ^38.0.0
-        version: 38.55.1(@aws-sdk/client-sso-oidc@3.621.0(@aws-sdk/client-sts@3.621.0))(encoding@0.1.13)(typanion@3.14.0)
+        version: 38.55.2(@aws-sdk/client-sso-oidc@3.621.0(@aws-sdk/client-sts@3.621.0))(encoding@0.1.13)(typanion@3.14.0)
       sort-package-json:
         specifier: ^2.6.0
         version: 2.10.1
@@ -2400,10 +2400,6 @@ packages:
   micromark@2.11.4:
     resolution: {integrity: sha512-+WoovN/ppKolQOFIAajxi7Lu9kInbPxFuTBVEavFcL8eAfVstoc5MocPmqBeAdBOJV00uaVjegzH4+MA0DN/uA==}
 
-  micromatch@4.0.7:
-    resolution: {integrity: sha512-LPP/3KorzCwBxfeUuZmaR6bG2kdeHSbe0P2tY3FLRU4vYrjYz5hI4QZwV0njUx3jeuKe67YukQ1LSPZBKDqO/Q==}
-    engines: {node: '>=8.6'}
-
   micromatch@4.0.8:
     resolution: {integrity: sha512-PXwfBhYu0hBCPw8Dn0E+WDYb7af3dSLVWKi3HGv84IdF4TyFoC0ysxFd0Goxw7nSv4T/PzEJQxsYsEiFCKo2BA==}
     engines: {node: '>=8.6'}
@@ -2881,8 +2877,8 @@ packages:
   remark@13.0.0:
     resolution: {integrity: sha512-HDz1+IKGtOyWN+QgBiAT0kn+2s6ovOxHyPAFGKVE81VSzJ+mq7RwHFledEvB5F1p4iJvOah/LOKdFuzvRnNLCA==}
 
-  renovate@38.55.1:
-    resolution: {integrity: sha512-iHcO/tf2bYkMvEVjcgWsy/33WXE0O62eR4ArzVSpDbWdqsofDNtR24MBq1jBuhH1CuiNQAno2MPP2QMzmasj/w==}
+  renovate@38.55.2:
+    resolution: {integrity: sha512-7IdImkadYuGZ8uz2i3f32S1AzA02yBU+H6dr0FzjIacdr3SELEPpilNFLtaDidzT5EuAtU9xa5p4kEjWT4kKtg==}
     engines: {node: ^20.15.1, pnpm: ^9.0.0}
     hasBin: true
 
@@ -5945,7 +5941,7 @@ snapshots:
       '@nodelib/fs.walk': 1.2.8
       glob-parent: 5.1.2
       merge2: 1.4.1
-      micromatch: 4.0.7
+      micromatch: 4.0.8
 
   fast-xml-parser@4.4.1:
     dependencies:
@@ -6683,11 +6679,6 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  micromatch@4.0.7:
-    dependencies:
-      braces: 3.0.3
-      picomatch: 2.3.1
-
   micromatch@4.0.8:
     dependencies:
       braces: 3.0.3
@@ -7214,7 +7205,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  renovate@38.55.1(@aws-sdk/client-sso-oidc@3.621.0(@aws-sdk/client-sts@3.621.0))(encoding@0.1.13)(typanion@3.14.0):
+  renovate@38.55.2(@aws-sdk/client-sso-oidc@3.621.0(@aws-sdk/client-sts@3.621.0))(encoding@0.1.13)(typanion@3.14.0):
     dependencies:
       '@aws-sdk/client-codecommit': 3.621.0
       '@aws-sdk/client-ec2': 3.621.0
