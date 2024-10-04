@@ -19,7 +19,7 @@ importers:
         version: 1.21.4
       renovate:
         specifier: ^38.0.0
-        version: 38.107.0(@aws-sdk/client-sso-oidc@3.658.1(@aws-sdk/client-sts@3.658.1))(encoding@0.1.13)(typanion@3.14.0)
+        version: 38.107.1(@aws-sdk/client-sso-oidc@3.658.1(@aws-sdk/client-sts@3.658.1))(encoding@0.1.13)(typanion@3.14.0)
       sort-package-json:
         specifier: ^2.6.0
         version: 2.10.1
@@ -535,8 +535,8 @@ packages:
     resolution: {integrity: sha512-MB4AYDsM5jhIHro/dq4ix1iWTLGToIGk6cWF5L6vanFaMble5jTX/UBQyiv05HsWnwUtY8JrfHy2LWfKwihqMw==}
     engines: {node: '>= 18'}
 
-  '@octokit/types@13.6.0':
-    resolution: {integrity: sha512-CrooV/vKCXqwLa+osmHLIMUb87brpgUqlqkPGc6iE2wCkUvTrHiXFMhAKoDDaAAYJrtKtrFTgSQTg5nObBEaew==}
+  '@octokit/types@13.6.1':
+    resolution: {integrity: sha512-PHZE9Z+kWXb23Ndik8MKPirBPziOc0D2/3KH1P+6jK5nGWe96kadZuE4jev2/Jq7FvIfTlT2Ltg8Fv2x1v0a5g==}
 
   '@one-ini/wasm@0.1.1':
     resolution: {integrity: sha512-XuySG1E38YScSJoMlqovLru4KTUNSjgVTIjyh7qMX6aNN5HY5Ct5LhRJdxO79JtTzKfzV/bnWpz+zquYrISsvw==}
@@ -2822,8 +2822,8 @@ packages:
   remark@13.0.0:
     resolution: {integrity: sha512-HDz1+IKGtOyWN+QgBiAT0kn+2s6ovOxHyPAFGKVE81VSzJ+mq7RwHFledEvB5F1p4iJvOah/LOKdFuzvRnNLCA==}
 
-  renovate@38.107.0:
-    resolution: {integrity: sha512-y3Hvpf5YlNNHbamfsIbvKJYSUGXP+5ZtghjYemeBLh5LmZkp/9brgudJAll5gAH+Jb1L2weK9PrIkNujLk4/9Q==}
+  renovate@38.107.1:
+    resolution: {integrity: sha512-KOSm8Ni8M/8OY7WskTtWlX83NrpuCjsVozRh+pQxy5BWJwMKb520hRALFc5T+CzBltdKYf9UqdDcoSEIyz69zA==}
     engines: {node: ^20.15.1, pnpm: ^9.0.0}
     hasBin: true
 
@@ -4416,19 +4416,19 @@ snapshots:
       '@octokit/graphql': 7.1.0
       '@octokit/request': 8.4.0
       '@octokit/request-error': 5.1.0
-      '@octokit/types': 13.6.0
+      '@octokit/types': 13.6.1
       before-after-hook: 2.2.3
       universal-user-agent: 6.0.1
 
   '@octokit/endpoint@9.0.5':
     dependencies:
-      '@octokit/types': 13.6.0
+      '@octokit/types': 13.6.1
       universal-user-agent: 6.0.1
 
   '@octokit/graphql@7.1.0':
     dependencies:
       '@octokit/request': 8.4.0
-      '@octokit/types': 13.6.0
+      '@octokit/types': 13.6.1
       universal-user-agent: 6.0.1
 
   '@octokit/openapi-types@22.2.0': {}
@@ -4436,7 +4436,7 @@ snapshots:
   '@octokit/plugin-paginate-rest@11.3.1(@octokit/core@5.2.0)':
     dependencies:
       '@octokit/core': 5.2.0
-      '@octokit/types': 13.6.0
+      '@octokit/types': 13.6.1
 
   '@octokit/plugin-request-log@4.0.1(@octokit/core@5.2.0)':
     dependencies:
@@ -4445,11 +4445,11 @@ snapshots:
   '@octokit/plugin-rest-endpoint-methods@13.2.2(@octokit/core@5.2.0)':
     dependencies:
       '@octokit/core': 5.2.0
-      '@octokit/types': 13.6.0
+      '@octokit/types': 13.6.1
 
   '@octokit/request-error@5.1.0':
     dependencies:
-      '@octokit/types': 13.6.0
+      '@octokit/types': 13.6.1
       deprecation: 2.3.1
       once: 1.4.0
 
@@ -4457,7 +4457,7 @@ snapshots:
     dependencies:
       '@octokit/endpoint': 9.0.5
       '@octokit/request-error': 5.1.0
-      '@octokit/types': 13.6.0
+      '@octokit/types': 13.6.1
       universal-user-agent: 6.0.1
 
   '@octokit/rest@20.1.1':
@@ -4467,7 +4467,7 @@ snapshots:
       '@octokit/plugin-request-log': 4.0.1(@octokit/core@5.2.0)
       '@octokit/plugin-rest-endpoint-methods': 13.2.2(@octokit/core@5.2.0)
 
-  '@octokit/types@13.6.0':
+  '@octokit/types@13.6.1':
     dependencies:
       '@octokit/openapi-types': 22.2.0
 
@@ -7092,7 +7092,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  renovate@38.107.0(@aws-sdk/client-sso-oidc@3.658.1(@aws-sdk/client-sts@3.658.1))(encoding@0.1.13)(typanion@3.14.0):
+  renovate@38.107.1(@aws-sdk/client-sso-oidc@3.658.1(@aws-sdk/client-sts@3.658.1))(encoding@0.1.13)(typanion@3.14.0):
     dependencies:
       '@aws-sdk/client-codecommit': 3.658.1
       '@aws-sdk/client-ec2': 3.658.1
