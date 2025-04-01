@@ -1,0 +1,13 @@
+{
+	"$schema": "https://docs.renovatebot.com/renovate-schema.json",
+	"customManagers": [
+		{
+			"customType": "jsonata",
+			"fileFormat": "json",
+			"fileMatch": ["package.json$"],
+			"matchStrings": ["{ 'currentValue': pnpm.executionEnv.nodeVersion }"],
+			"datasourceTemplate": "node-version",
+			"depNameTemplate": "node"
+		}
+	]
+}
