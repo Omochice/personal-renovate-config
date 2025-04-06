@@ -7,7 +7,8 @@
 		"github>Omochice/personal-renovate-config//biomejs",
 		"github>Omochice/personal-renovate-config//mise",
 		"github>Omochice/personal-renovate-config//playwright",
-		"github>Omochice/personal-renovate-config//replacement"
+		"github>Omochice/personal-renovate-config//replacement",
+		"github>Omochice/personal-renovate-config//pnpm-nodeversion"
 	],
 	"packageRules": [
 		{
