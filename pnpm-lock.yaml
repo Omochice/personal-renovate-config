@@ -24,13 +24,13 @@ importers:
         version: 1.21.4(patch_hash=018babd22b7ce951bcd10d6246f1e541a7ac7ba212f7fa8985e774ece67d08e1)
       renovate:
         specifier: ^39.0.0
-        version: 39.257.8(encoding@0.1.13)(typanion@3.14.0)
+        version: 39.258.0(encoding@0.1.13)(typanion@3.14.0)
       sort-package-json:
         specifier: ^2.6.0
         version: 2.15.1
       vitest:
         specifier: ^2.0.0
-        version: 2.1.9(@types/node@22.14.1)
+        version: 2.1.9(@types/node@22.15.2)
 
 packages:
 
@@ -1136,8 +1136,8 @@ packages:
   '@types/moo@0.5.5':
     resolution: {integrity: sha512-eXQpwnkI4Ntw5uJg6i2PINdRFWLr55dqjuYQaLHNjvqTzF14QdNWbCbml9sza0byyXNA0hZlHtcdN+VNDcgVHA==}
 
-  '@types/node@22.14.1':
-    resolution: {integrity: sha512-u0HuPQwe/dHrItgHHpmw3N2fYCR6x4ivMNbPHRkBVP4CvN+kiRrKHWk3i8tXiO/joPwXLMYvF9TTF0eqgHIuOw==}
+  '@types/node@22.15.2':
+    resolution: {integrity: sha512-uKXqKN9beGoMdBfcaTY1ecwz6ctxuJAcUlwE55938g0ZJ8lRxwAZqRz2AJ4pzpt5dHdTPMB863UZ0ESiFUcP7A==}
 
   '@types/normalize-package-data@2.4.4':
     resolution: {integrity: sha512-37i+OaWTh9qeK4LSHPsyRC7NahnGotNuZvjLSgcPzblpHB3rrCJxAOgI5gCdKm7coonsaX1Of0ILiTcnZjbfxA==}
@@ -2800,8 +2800,8 @@ packages:
   remark@13.0.0:
     resolution: {integrity: sha512-HDz1+IKGtOyWN+QgBiAT0kn+2s6ovOxHyPAFGKVE81VSzJ+mq7RwHFledEvB5F1p4iJvOah/LOKdFuzvRnNLCA==}
 
-  renovate@39.257.8:
-    resolution: {integrity: sha512-yMJrjMuqJjojO4/noD6XM9mCxJ0r87aFrzlfUS7jiDQtS+0iTBttp8WVhoeD4yQusS23siissn0dC9Vy4Rg4rw==}
+  renovate@39.258.0:
+    resolution: {integrity: sha512-HopNnS4swMoWukvafw4UFT9j6d44K+K/flCr8b1ieLqa2C7m2MNfG0bQuWB5y5ZdcSQvnQzn04AZME9cRX5yRg==}
     engines: {node: ^20.15.1 || ^22.11.0, pnpm: ^10.0.0}
     hasBin: true
 
@@ -5164,13 +5164,13 @@ snapshots:
 
   '@types/bunyan@1.8.11':
     dependencies:
-      '@types/node': 22.14.1
+      '@types/node': 22.15.2
 
   '@types/cacheable-request@6.0.3':
     dependencies:
       '@types/http-cache-semantics': 4.0.4
       '@types/keyv': 3.1.4
-      '@types/node': 22.14.1
+      '@types/node': 22.15.2
       '@types/responselike': 1.0.3
 
   '@types/emscripten@1.40.1': {}
@@ -5181,7 +5181,7 @@ snapshots:
 
   '@types/keyv@3.1.4':
     dependencies:
-      '@types/node': 22.14.1
+      '@types/node': 22.15.2
 
   '@types/mdast@3.0.15':
     dependencies:
@@ -5191,7 +5191,7 @@ snapshots:
 
   '@types/moo@0.5.5': {}
 
-  '@types/node@22.14.1':
+  '@types/node@22.15.2':
     dependencies:
       undici-types: 6.21.0
 
@@ -5201,7 +5201,7 @@ snapshots:
 
   '@types/responselike@1.0.3':
     dependencies:
-      '@types/node': 22.14.1
+      '@types/node': 22.15.2
 
   '@types/semver@7.7.0': {}
 
@@ -5215,7 +5215,7 @@ snapshots:
 
   '@types/yauzl@2.10.3':
     dependencies:
-      '@types/node': 22.14.1
+      '@types/node': 22.15.2
     optional: true
 
   '@vitest/expect@2.1.9':
@@ -5225,13 +5225,13 @@ snapshots:
       chai: 5.2.0
       tinyrainbow: 1.2.0
 
-  '@vitest/mocker@2.1.9(vite@5.4.17(@types/node@22.14.1))':
+  '@vitest/mocker@2.1.9(vite@5.4.17(@types/node@22.15.2))':
     dependencies:
       '@vitest/spy': 2.1.9
       estree-walker: 3.0.3
       magic-string: 0.30.17
     optionalDependencies:
-      vite: 5.4.17(@types/node@22.14.1)
+      vite: 5.4.17(@types/node@22.15.2)
 
   '@vitest/pretty-format@2.1.9':
     dependencies:
@@ -6881,7 +6881,7 @@ snapshots:
       '@protobufjs/path': 1.1.2
       '@protobufjs/pool': 1.1.0
       '@protobufjs/utf8': 1.1.0
-      '@types/node': 22.14.1
+      '@types/node': 22.15.2
       long: 5.3.2
 
   protocols@2.0.2: {}
@@ -7002,7 +7002,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  renovate@39.257.8(encoding@0.1.13)(typanion@3.14.0):
+  renovate@39.258.0(encoding@0.1.13)(typanion@3.14.0):
     dependencies:
       '@aws-sdk/client-codecommit': 3.777.0
       '@aws-sdk/client-ec2': 3.779.0
@@ -7654,13 +7654,13 @@ snapshots:
       unist-util-stringify-position: 2.0.3
       vfile-message: 2.0.4
 
-  vite-node@2.1.9(@types/node@22.14.1):
+  vite-node@2.1.9(@types/node@22.15.2):
     dependencies:
       cac: 6.7.14
       debug: 4.4.0
       es-module-lexer: 1.6.0
       pathe: 1.1.2
-      vite: 5.4.17(@types/node@22.14.1)
+      vite: 5.4.17(@types/node@22.15.2)
     transitivePeerDependencies:
       - '@types/node'
       - less
@@ -7672,19 +7672,19 @@ snapshots:
       - supports-color
       - terser
 
-  vite@5.4.17(@types/node@22.14.1):
+  vite@5.4.17(@types/node@22.15.2):
     dependencies:
       esbuild: 0.21.5
       postcss: 8.5.3
       rollup: 4.39.0
     optionalDependencies:
-      '@types/node': 22.14.1
+      '@types/node': 22.15.2
       fsevents: 2.3.3
 
-  vitest@2.1.9(@types/node@22.14.1):
+  vitest@2.1.9(@types/node@22.15.2):
     dependencies:
       '@vitest/expect': 2.1.9
-      '@vitest/mocker': 2.1.9(vite@5.4.17(@types/node@22.14.1))
+      '@vitest/mocker': 2.1.9(vite@5.4.17(@types/node@22.15.2))
       '@vitest/pretty-format': 2.1.9
       '@vitest/runner': 2.1.9
       '@vitest/snapshot': 2.1.9
@@ -7700,11 +7700,11 @@ snapshots:
       tinyexec: 0.3.2
       tinypool: 1.0.2
       tinyrainbow: 1.2.0
-      vite: 5.4.17(@types/node@22.14.1)
-      vite-node: 2.1.9(@types/node@22.14.1)
+      vite: 5.4.17(@types/node@22.15.2)
+      vite-node: 2.1.9(@types/node@22.15.2)
       why-is-node-running: 2.3.0
     optionalDependencies:
-      '@types/node': 22.14.1
+      '@types/node': 22.15.2
     transitivePeerDependencies:
       - less
       - lightningcss
