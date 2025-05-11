@@ -20,7 +20,7 @@ importers:
         specifier: ^7.0.0
         version: 7.0.2
       re2:
-        specifier: ^1.21.3
+        specifier: ^1.21.5
         version: 1.21.5(patch_hash=018babd22b7ce951bcd10d6246f1e541a7ac7ba212f7fa8985e774ece67d08e1)
       renovate:
         specifier: ^39.0.0
