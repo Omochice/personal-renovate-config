@@ -17,7 +17,7 @@
 	"devDependencies": {
 		"@biomejs/biome": "^1.2.2",
 		"npm-run-all2": "^7.0.0",
-		"re2": "^1.21.3",
+		"re2": "^1.21.5",
 		"renovate": "^39.0.0",
 		"sort-package-json": "^2.6.0",
 		"vitest": "^2.0.0"
@@ -25,9 +25,6 @@
 	"packageManager": "pnpm@10.10.0",
 	"pnpm": {
 		"onlyBuiltDependencies": ["@biomejs/biome", "esbuild", "re2"],
-		"patchedDependencies": {
-			"re2": "patches/re2.patch"
-		},
 		"ignoredBuiltDependencies": [
 			"better-sqlite3",
 			"core-js-pure",
