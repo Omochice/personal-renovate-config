@@ -4,7 +4,7 @@
 		{
 			"customType": "jsonata",
 			"fileFormat": "json",
-			"fileMatch": ["package.json$"],
+			"managerFilePatterns": ["/package.json$/"],
 			"matchStrings": ["{ 'currentValue': pnpm.executionEnv.nodeVersion }"],
 			"datasourceTemplate": "node-version",
 			"depNameTemplate": "node"
