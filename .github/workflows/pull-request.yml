@@ -1,6 +1,7 @@
-name: Checks for pull request
+name: Checks for push
 
 on:
+  push: null
   pull_request:
     branches:
       - main
