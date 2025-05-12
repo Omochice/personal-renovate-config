@@ -3,7 +3,7 @@
 	"customManagers": [
 		{
 			"customType": "regex",
-			"fileMatch": "biome.jsonc?$",
+			"managerFilePatterns": ["/biome.jsonc?$/"],
 			"matchStrings": [
 				"\"\\$schema\": \"https://biomejs\\.dev/schemas/(?<currentValue>\\d+?\\.\\d+?.\\d+?)/schema\\.json\""
 			],

@@ -3,12 +3,12 @@
 	"customManagers": [
 		{
 			"customType": "regex",
-			"fileMatch": [
-				"^.mise.toml$",
-				".mise/config.toml$",
-				".config/mise.toml$",
-				".config/mise/config.toml$",
-				"mise/config.toml$"
+			"managerFilePatterns": [
+				"/^.mise.toml$/",
+				"/.mise/config.toml$/",
+				"/.config/mise.toml$/",
+				"/.config/mise/config.toml$/",
+				"/mise/config.toml$/"
 			],
 			"matchStrings": [
 				"ruby\\s*=\\s*\"v?(?<currentValue>\\S+)\"\\s*#\\s*renovate:\\s*mise",
