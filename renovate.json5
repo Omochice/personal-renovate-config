@@ -4,4 +4,18 @@
     "github>Omochice/personal-renovate-config",
     "github>aquaproj/aqua-renovate-config#2.7.5",
   ],
+  customManagers: [
+    {
+      customType: "jsonata",
+      fileFormat: "yaml",
+      managerFilePatterns: [
+        "/.github/workflows/_test.yml$/",
+      ],
+      matchStrings: [
+        "{ 'currentValue': jobs.basic.strategy.matrix.node[0] }",
+      ],
+      datasourceTemplate: "node-version",
+      depNameTemplate: "node",
+    },
+  ],
 }
