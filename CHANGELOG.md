@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.0](https://github.com/Omochice/personal-renovate-config/compare/v1.0.0...v1.1.0) (2025-05-13)
+
+
+### Features
+
+* add custom manager for `pnpm.executeEnv.nodeVersion` ([#288](https://github.com/Omochice/personal-renovate-config/issues/288)) ([43a2ae3](https://github.com/Omochice/personal-renovate-config/commit/43a2ae3ae097e37d65e8fbd87836ad9625e2ec57))
+
 ## 1.0.0 (2024-07-21)
 
 

@@ -1,9 +1,11 @@
 {
 	"name": "@Omochice/personal-renovate-config",
-	"version": "1.0.0",
+	"version": "1.1.0",
 	"private": true,
 	"description": "renovate configuration for me(experimental)",
-	"keywords": ["renovate"],
+	"keywords": [
+		"renovate"
+	],
 	"license": "zlib",
 	"author": "Omochice",
 	"scripts": {
@@ -24,7 +26,11 @@
 	},
 	"packageManager": "pnpm@10.10.0",
 	"pnpm": {
-		"onlyBuiltDependencies": ["@biomejs/biome", "esbuild", "re2"],
+		"onlyBuiltDependencies": [
+			"@biomejs/biome",
+			"esbuild",
+			"re2"
+		],
 		"ignoredBuiltDependencies": [
 			"better-sqlite3",
 			"core-js-pure",
