@@ -2,13 +2,12 @@
 	"$schema": "https://docs.renovatebot.com/renovate-schema.json",
 	"customManagers": [
 		{
-			"customType": "regex",
-			"managerFilePatterns": ["/biome.jsonc?$/"],
-			"matchStrings": [
-				"\"\\$schema\": \"https://biomejs\\.dev/schemas/(?<currentValue>\\d+?\\.\\d+?.\\d+?)/schema\\.json\""
-			],
+			"customType": "jsonata",
 			"datasourceTemplate": "npm",
-			"depNameTemplate": "@biomejs/biome"
+			"depNameTemplate": "@biomejs/biome",
+			"fileFormat": "json",
+			"managerFilePatterns": ["/(^|/)biome\\.jsonc?$/"],
+			"matchStrings": ["{'currentValue': $split($.'$schema',('/'))[-2]}"]
 		}
 	]
 }
