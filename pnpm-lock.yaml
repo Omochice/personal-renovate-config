@@ -19,7 +19,7 @@ importers:
         version: 1.22.1
       renovate:
         specifier: ^40.0.0
-        version: 40.32.6(encoding@0.1.13)(typanion@3.14.0)
+        version: 40.32.7(encoding@0.1.13)(typanion@3.14.0)
       sort-package-json:
         specifier: ^3.0.0
         version: 3.2.1
@@ -235,8 +235,8 @@ packages:
     resolution: {integrity: sha512-D2hP9eA+Sqx1kBZgzxZh0y1trbuU+JoDkiEwqhQ36nodYqJwyEIhPSdMNd7lOm/4io72luTPWH20Yda0xOuUow==}
     engines: {node: '>=6.9.0'}
 
-  '@babel/runtime-corejs3@7.27.1':
-    resolution: {integrity: sha512-909rVuj3phpjW6y0MCXAZ5iNeORePa6ldJvp2baWGcTjwqbBDDz6xoS5JHJ7lS88NlwLYj07ImL/8IUMtDZzTA==}
+  '@babel/runtime-corejs3@7.27.3':
+    resolution: {integrity: sha512-ZYcgrwb+dkWNcDlsTe4fH1CMdqMDSJ5lWFd1by8Si2pI54XcQjte/+ViIPqAk7EAWisaUxvQ89grv+bNX2x8zg==}
     engines: {node: '>=6.9.0'}
 
   '@baszalmstra/rattler@0.2.1':
@@ -2795,8 +2795,8 @@ packages:
   remark@13.0.0:
     resolution: {integrity: sha512-HDz1+IKGtOyWN+QgBiAT0kn+2s6ovOxHyPAFGKVE81VSzJ+mq7RwHFledEvB5F1p4iJvOah/LOKdFuzvRnNLCA==}
 
-  renovate@40.32.6:
-    resolution: {integrity: sha512-UlNmd4q+QsDrtdkD2EfqXpWebyhfNQJZ1ruqsroozGTUORp2sr+6ptz46gn/1TyXXd99Nwc4QGEZAZH4wFHNDg==}
+  renovate@40.32.7:
+    resolution: {integrity: sha512-YBX+v2PhSc/PPei7KVnen5VHzspGRXY7rN6jDbX+vPSKpWUcDGRSgPYf69/75F2mU393UHVrUpg//RvWj1XHQA==}
     engines: {node: ^22.13.0, pnpm: ^10.0.0}
     hasBin: true
 
@@ -4248,7 +4248,7 @@ snapshots:
 
   '@babel/helper-validator-identifier@7.27.1': {}
 
-  '@babel/runtime-corejs3@7.27.1':
+  '@babel/runtime-corejs3@7.27.3':
     dependencies:
       core-js-pure: 3.42.0
 
@@ -4655,7 +4655,7 @@ snapshots:
 
   '@qnighy/marshal@0.1.3':
     dependencies:
-      '@babel/runtime-corejs3': 7.27.1
+      '@babel/runtime-corejs3': 7.27.3
 
   '@redis/bloom@1.2.0(@redis/client@1.6.1)':
     dependencies:
@@ -6989,7 +6989,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  renovate@40.32.6(encoding@0.1.13)(typanion@3.14.0):
+  renovate@40.32.7(encoding@0.1.13)(typanion@3.14.0):
     dependencies:
       '@aws-sdk/client-codecommit': 3.799.0
       '@aws-sdk/client-ec2': 3.800.0
