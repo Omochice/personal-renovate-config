@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.2.0](https://github.com/Omochice/personal-renovate-config/compare/v1.1.0...v1.2.0) (2025-06-01)
+
+
+### Features
+
+* use config:best-practices instead ([#453](https://github.com/Omochice/personal-renovate-config/issues/453)) ([71aafaf](https://github.com/Omochice/personal-renovate-config/commit/71aafafb9df9b973f4fd38cbcfc3df090271a160))
+
 ## [1.1.0](https://github.com/Omochice/personal-renovate-config/compare/v1.0.0...v1.1.0) (2025-05-13)
 
 
