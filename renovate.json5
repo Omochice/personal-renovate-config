@@ -9,10 +9,10 @@
       customType: "jsonata",
       fileFormat: "yaml",
       managerFilePatterns: [
-        "/.github/workflows/_test.yml$/",
+        "/.github/workflows/pull-request.yml$/",
       ],
       matchStrings: [
-        "{ 'currentValue': jobs.basic.strategy.matrix.node[0] }",
+        "{ 'currentValue': jobs.test-code.strategy.matrix.node[0] }",
       ],
       datasourceTemplate: "node-version",
       depNameTemplate: "node",
