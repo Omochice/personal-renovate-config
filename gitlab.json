@@ -8,7 +8,7 @@
 			"fileFormat": "json",
 			"managerFilePatterns": [
 				"/^templates\\/.*\\.ya?ml$/",
-				"/^templates\\/*/template\\.ya?ml$/"
+				"/^templates\\/.*\\/template\\.ya?ml$/"
 			],
 			"matchStrings": [
 				"$.* ~> $filter(function($v, $i) { $exists($v.image) }) ~> $map(function($v) { ( $image := $type($v.image) = 'string' ? $v.image : $v.image.name; $hasVersion := $image ~> $contains(':'); { 'depName': $image ~> $substringBefore(':'), 'currentValue': $hasVersion ? $image ~> $substringAfter(':') : 'latest' }) })"
