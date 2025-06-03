@@ -1,0 +1,18 @@
+{
+	"$schema": "https://docs.renovatebot.com/renovate-schema.json",
+	"description": "Renovate configuration for Docker images in GitLab CI components",
+	"customManagers": [
+		{
+			"customType": "jsonata",
+			"datasourceTemplate": "docker",
+			"fileFormat": "json",
+			"managerFilePatterns": [
+				"/^templates\\/.*\\.ya?ml$/",
+				"/^templates\\/*/template\\.ya?ml$/"
+			],
+			"matchStrings": [
+				"$.* ~> $filter(function($v, $i) { $exists($v.image) }) ~> $map(function($v) { ( $image := $type($v.image) = 'string' ? $v.image : $v.image.name; $hasVersion := $image ~> $contains(':'); { 'depName': $image ~> $substringBefore(':'), 'currentValue': $hasVersion ? $image ~> $substringAfter(':') : 'latest' }) })"
+			]
+		}
+	]
+}
