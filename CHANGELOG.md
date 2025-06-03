@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.3.0](https://github.com/Omochice/personal-renovate-config/compare/v1.2.0...v1.3.0) (2025-06-03)
+
+
+### Features
+
+* add jsonata custom manager for gitlab ci component ([#464](https://github.com/Omochice/personal-renovate-config/issues/464)) ([6787517](https://github.com/Omochice/personal-renovate-config/commit/678751755626801822558f1fd7e0f822d0d3d2b1))
+
 ## [1.2.0](https://github.com/Omochice/personal-renovate-config/compare/v1.1.0...v1.2.0) (2025-06-01)
 
 
