@@ -30,16 +30,6 @@ function prepareParseOption(options: YamlOptionsMultiple | undefined): any {
 	};
 }
 
-class AggregateError extends Error {
-	readonly errors: Error[];
-
-	constructor(errors: Error[], message?: string) {
-		super(message);
-		this.name = "AggregateError";
-		this.errors = errors;
-	}
-}
-
 /**
  * Minimal implementation of a YAML parser that can handle multiple documents same as renovate.
  *
