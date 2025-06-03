@@ -3,18 +3,16 @@
 	"version": "1.2.0",
 	"private": true,
 	"description": "renovate configuration for me(experimental)",
-	"keywords": [
-		"renovate"
-	],
+	"keywords": ["renovate"],
 	"license": "zlib",
 	"author": "Omochice",
 	"scripts": {
-		"test": "npm-run-all test:validate test:regex",
-		"test:validate": "renovate-config-validator --strict mise.json mise/*.json playwright.json replacement/*.json",
-		"test:regex": "vitest run",
 		"fmt": "npm-run-all fmt:package fmt:json",
+		"fmt:json": "biome format ./ --write",
 		"fmt:package": "sort-package-json",
-		"fmt:json": "biome format ./ --write"
+		"test": "npm-run-all test:validate test:regex",
+		"test:regex": "vitest run",
+		"test:validate": "renovate-config-validator --strict mise.json mise/*.json playwright.json replacement/*.json"
 	},
 	"devDependencies": {
 		"@biomejs/biome": "1.9.4",
@@ -26,11 +24,7 @@
 	},
 	"packageManager": "pnpm@10.11.1",
 	"pnpm": {
-		"onlyBuiltDependencies": [
-			"@biomejs/biome",
-			"esbuild",
-			"re2"
-		],
+		"onlyBuiltDependencies": ["@biomejs/biome", "esbuild", "re2"],
 		"ignoredBuiltDependencies": [
 			"better-sqlite3",
 			"core-js-pure",
