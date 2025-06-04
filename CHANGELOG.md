@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.3.1](https://github.com/Omochice/personal-renovate-config/compare/v1.3.0...v1.3.1) (2025-06-04)
+
+
+### Bug Fixes
+
+* use gitlabci manager instead ([#471](https://github.com/Omochice/personal-renovate-config/issues/471)) ([c18b8df](https://github.com/Omochice/personal-renovate-config/commit/c18b8dfc270067599494f000a5c833cb20cb7ff4))
+
 ## [1.3.0](https://github.com/Omochice/personal-renovate-config/compare/v1.2.0...v1.3.0) (2025-06-03)
 
 
