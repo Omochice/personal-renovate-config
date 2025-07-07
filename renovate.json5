@@ -1,6 +1,6 @@
 {
-	$schema: "https://docs.renovatebot.com/renovate-schema.json",
-	extends: [
+  $schema: "https://docs.renovatebot.com/renovate-schema.json",
+  extends: [
     "github>Omochice/personal-renovate-config",
     "github>aquaproj/aqua-renovate-config#2.8.2",
   ],
@@ -12,7 +12,7 @@
         "/.github/workflows/pull-request.yml$/",
       ],
       matchStrings: [
-        "{ 'currentValue': jobs.test-code.strategy.matrix.node[0] }",
+        "{ 'currentValue': jobs.`test-code`.strategy.matrix.node[0] }",
       ],
       datasourceTemplate: "node-version",
       depNameTemplate: "node",
