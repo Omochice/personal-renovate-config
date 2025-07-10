@@ -11,6 +11,7 @@
 		"github>Omochice/personal-renovate-config//pnpm-nodeversion",
 		"github>Omochice/personal-renovate-config//gitlab"
 	],
+	"rebaseWhen": "behind-base-branch",
 	"packageRules": [
 		{
 			"matchUpdateTypes": ["minor", "patch"],
