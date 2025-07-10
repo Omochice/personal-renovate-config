@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.4.0](https://github.com/Omochice/personal-renovate-config/compare/v1.3.1...v1.4.0) (2025-07-10)
+
+
+### Features
+
+* rebase always ([#560](https://github.com/Omochice/personal-renovate-config/issues/560)) ([2204f88](https://github.com/Omochice/personal-renovate-config/commit/2204f882ae35bf9d41ef489cdd33e953cb201693))
+
 ## [1.3.1](https://github.com/Omochice/personal-renovate-config/compare/v1.3.0...v1.3.1) (2025-06-04)
 
 
