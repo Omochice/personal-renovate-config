@@ -24,7 +24,7 @@
 		"renovate": "41.43.6",
 		"sort-package-json": "3.4.0",
 		"vitest": "3.2.4",
-		"yaml": "2.8.0"
+		"yaml": "2.8.1"
 	},
 	"packageManager": "pnpm@10.13.1",
 	"pnpm": {
