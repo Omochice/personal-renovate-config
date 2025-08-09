@@ -1,11 +1,20 @@
 {
 	"$schema": "https://docs.renovatebot.com/renovate-schema.json",
+	"description": "Renovate configuration for managing Node.js version in pnpm projects",
 	"customManagers": [
 		{
 			"customType": "jsonata",
 			"fileFormat": "json",
 			"managerFilePatterns": ["/package.json$/"],
 			"matchStrings": ["{ 'currentValue': pnpm.executionEnv.nodeVersion }"],
+			"datasourceTemplate": "node-version",
+			"depNameTemplate": "node"
+		},
+		{
+			"customType": "jsonata",
+			"fileFormat": "yaml",
+			"managerFilePatterns": ["/pnpm-workspace.yaml$/"],
+			"matchStrings": ["{ 'currentValue': executionEnv.nodeVersion }"],
 			"datasourceTemplate": "node-version",
 			"depNameTemplate": "node"
 		}
