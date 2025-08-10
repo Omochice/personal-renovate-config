@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.5.0](https://github.com/Omochice/personal-renovate-config/compare/v1.4.0...v1.5.0) (2025-08-10)
+
+
+### Features
+
+* support executionEnv.nodeVersion in pnpm-workspace.yaml too ([#634](https://github.com/Omochice/personal-renovate-config/issues/634)) ([a7e3b56](https://github.com/Omochice/personal-renovate-config/commit/a7e3b569a384ee61c48216838240e782f32af1b5))
+
 ## [1.4.0](https://github.com/Omochice/personal-renovate-config/compare/v1.3.1...v1.4.0) (2025-07-10)
 
 
