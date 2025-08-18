@@ -1,0 +1,9 @@
+{
+	"$schema": "https://docs.renovatebot.com/renovate-schema.json",
+	"packageRules": [
+		{
+			"matchPackageNames": ["textlint-rule-preset-ai-writing"],
+			"replacementName": "@textlint-ja/textlint-rule-preset-ai-writing"
+		}
+	]
+}
