@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.6.0](https://github.com/Omochice/personal-renovate-config/compare/v1.5.0...v1.6.0) (2025-08-18)
+
+
+### Features
+
+* add replacement rule for textlint-rule-preset-ai-writing ([#669](https://github.com/Omochice/personal-renovate-config/issues/669)) ([bd5f718](https://github.com/Omochice/personal-renovate-config/commit/bd5f718695f15c39e825f84f45c9be6282cf50d8))
+
 ## [1.5.0](https://github.com/Omochice/personal-renovate-config/compare/v1.4.0...v1.5.0) (2025-08-10)
 
 
