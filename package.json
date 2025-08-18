@@ -12,9 +12,8 @@
 		"fmt": "npm-run-all fmt:package fmt:json",
 		"fmt:json": "biome format ./ --write",
 		"fmt:package": "sort-package-json",
-		"test": "npm-run-all test:validate test:regex",
-		"test:regex": "vitest run",
-		"test:validate": "renovate-config-validator --strict mise.json mise/*.json playwright.json replacement/*.json"
+		"test": "npm-run-all test:*",
+		"test:validate": "renovate-config-validator --strict mise.json playwright.json replacement/*.json"
 	},
 	"devDependencies": {
 		"@biomejs/biome": "2.2.0",
