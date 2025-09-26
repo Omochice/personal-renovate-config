@@ -12,3 +12,7 @@
   ]
 }
 ```
+
+## License
+
+[zlib](./LICENSE)
