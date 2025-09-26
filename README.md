@@ -1,6 +1,6 @@
 # Personal renovate config
 
-My personal sharable renovate configuration.
+My personal shareable renovate configuration.
 
 > [!WARNING]
 > This repository is personal and experimental renovate configuration.
