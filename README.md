@@ -7,6 +7,8 @@ My personal sharable renovate configuration.
 
 ## Usage
 
+Add the following to your `renovate.json` file:
+
 ```json
 {
   "extends": [
