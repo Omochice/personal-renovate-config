@@ -4,6 +4,7 @@
 		"config:best-practices",
 		":timezone(Asia/Tokyo)",
 		":semanticCommits",
+		":prHourlyLimitNone",
 		"github>Omochice/personal-renovate-config//biomejs",
 		"github>Omochice/personal-renovate-config//mise",
 		"github>Omochice/personal-renovate-config//playwright",
