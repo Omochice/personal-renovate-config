@@ -14,7 +14,7 @@
 	"rebaseWhen": "behind-base-branch",
 	"packageRules": [
 		{
-			"matchUpdateTypes": ["minor", "patch"],
+			"matchUpdateTypes": ["minor", "patch", "pin", "pinDigest"],
 			"matchCurrentVersion": "!/^v?0/",
 			"automerge": true
 		}
