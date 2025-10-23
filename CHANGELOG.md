@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.7.0](https://github.com/Omochice/personal-renovate-config/compare/v1.6.0...v1.7.0) (2025-10-23)
+
+
+### Features
+
+* enable auto-merge when pin/pinDigest ([#865](https://github.com/Omochice/personal-renovate-config/issues/865)) ([3952e4b](https://github.com/Omochice/personal-renovate-config/commit/3952e4b2a97a463339198718039e1716bd800c8e))
+* stop hourly limit ([#864](https://github.com/Omochice/personal-renovate-config/issues/864)) ([a735777](https://github.com/Omochice/personal-renovate-config/commit/a7357775497072a9b287611f3718887037b20da6))
+
 ## [1.6.0](https://github.com/Omochice/personal-renovate-config/compare/v1.5.0...v1.6.0) (2025-08-18)
 
 
