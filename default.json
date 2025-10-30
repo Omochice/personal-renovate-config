@@ -10,14 +10,8 @@
 		"github>Omochice/personal-renovate-config//playwright",
 		"github>Omochice/personal-renovate-config//replacement",
 		"github>Omochice/personal-renovate-config//pnpm-nodeversion",
-		"github>Omochice/personal-renovate-config//gitlab"
+		"github>Omochice/personal-renovate-config//gitlab",
+		"github>Omochice/personal-renovate-config//auto-merge"
 	],
-	"rebaseWhen": "behind-base-branch",
-	"packageRules": [
-		{
-			"matchUpdateTypes": ["minor", "patch", "pin", "pinDigest"],
-			"matchCurrentVersion": "!/^v?0/",
-			"automerge": true
-		}
-	]
+	"rebaseWhen": "behind-base-branch"
 }
