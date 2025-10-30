@@ -1,0 +1,12 @@
+{
+	"$schema": "https://docs.renovatebot.com/renovate-schema.json",
+	"description": "shareable configuration to enable automerge for renovate",
+	"platformAutomerge": true,
+	"packageRules": [
+		{
+			"matchUpdateTypes": ["minor", "patch", "pin", "pinDigest"],
+			"matchCurrentVersion": "/^(?!v?0)/",
+			"automerge": true
+		}
+	]
+}
