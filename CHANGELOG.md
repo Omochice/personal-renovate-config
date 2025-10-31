@@ -1,5 +1,17 @@
 # Changelog
 
+## [1.8.0](https://github.com/Omochice/personal-renovate-config/compare/v1.7.0...v1.8.0) (2025-10-31)
+
+
+### Features
+
+* use automerge config ([#896](https://github.com/Omochice/personal-renovate-config/issues/896)) ([a66b4ea](https://github.com/Omochice/personal-renovate-config/commit/a66b4ea4b6ce5ef241edb5e70d41b76fbadc799f))
+
+
+### Bug Fixes
+
+* fix automerge regexp ([#899](https://github.com/Omochice/personal-renovate-config/issues/899)) ([73a24fb](https://github.com/Omochice/personal-renovate-config/commit/73a24fbcee9fcef71b54bbb741be7708df654596))
+
 ## [1.7.0](https://github.com/Omochice/personal-renovate-config/compare/v1.6.0...v1.7.0) (2025-10-23)
 
 
