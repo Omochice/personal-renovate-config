@@ -5,7 +5,7 @@
 	"packageRules": [
 		{
 			"matchUpdateTypes": ["minor", "patch", "pin", "pinDigest"],
-			"matchCurrentVersion": "/^v?0/",
+			"matchCurrentVersion": "!/^v?0/",
 			"automerge": true
 		}
 	]
