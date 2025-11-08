@@ -4,7 +4,7 @@
 	"packageRules": [
 		{
 			"groupName": "slidev monorepo",
-			"matchPackageNames": ["/^@slidev\\//i"]
+			"matchPackageNames": ["/^@slidev\\//"]
 		}
 	]
 }
