@@ -1,0 +1,10 @@
+{
+	"$schema": "https://docs.renovatebot.com/renovate-schema.json",
+	"description": "Grouping rule for @slidev/",
+	"packageRules": [
+		{
+			"groupName": "slidev monorepo",
+			"matchPackageNames": ["/^@slidev\\//"]
+		}
+	]
+}

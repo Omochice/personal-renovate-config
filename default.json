@@ -11,7 +11,8 @@
 		"github>Omochice/personal-renovate-config//replacement",
 		"github>Omochice/personal-renovate-config//pnpm-nodeversion",
 		"github>Omochice/personal-renovate-config//gitlab",
-		"github>Omochice/personal-renovate-config//auto-merge"
+		"github>Omochice/personal-renovate-config//auto-merge",
+		"github>Omochice/personal-renovate-config//grouping/slidev"
 	],
 	"rebaseWhen": "behind-base-branch"
 }
