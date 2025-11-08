@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.9.0](https://github.com/Omochice/personal-renovate-config/compare/v1.8.0...v1.9.0) (2025-11-08)
+
+
+### Features
+
+* add a grouping rule for slidev ([#924](https://github.com/Omochice/personal-renovate-config/issues/924)) ([4677fd4](https://github.com/Omochice/personal-renovate-config/commit/4677fd4140da250ddc34d266b07f324982d36a2d))
+
 ## [1.8.0](https://github.com/Omochice/personal-renovate-config/compare/v1.7.0...v1.8.0) (2025-10-31)
 
 
