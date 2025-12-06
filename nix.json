@@ -10,7 +10,7 @@
 			"lockFileMaintenance": {
 				"enabled": true,
 				"automerge": true,
-				"schedule": ["before 3:00am on saturday"]
+				"schedule": ["* * * * 1"]
 			}
 		}
 	]
