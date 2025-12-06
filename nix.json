@@ -1,0 +1,17 @@
+{
+	"$schema": "https://docs.renovatebot.com/renovate-schema.json",
+	"description": "Renovate configuration for update flake.lock files",
+	"nix": {
+		"enabled": true
+	},
+	"packageRules": [
+		{
+			"matchManagers": ["nix"],
+			"lockFileMaintenance": {
+				"enabled": true,
+				"automerge": true,
+				"schedule": ["before 3:00am on saturday"]
+			}
+		}
+	]
+}
