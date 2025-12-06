@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.10.0](https://github.com/Omochice/personal-renovate-config/compare/v1.9.0...v1.10.0) (2025-12-06)
+
+
+### Features
+
+* add new config for update flake.lock ([#1013](https://github.com/Omochice/personal-renovate-config/issues/1013)) ([bd14742](https://github.com/Omochice/personal-renovate-config/commit/bd14742b03d607ab2ac9de9cda7c9360fffe4b4e))
+
 ## [1.9.0](https://github.com/Omochice/personal-renovate-config/compare/v1.8.0...v1.9.0) (2025-11-08)
 
 
