@@ -1,0 +1,20 @@
+{
+	"$schema": "https://docs.renovatebot.com/renovate-schema.json",
+	"description": "Grouping rule for devbox",
+	"customManagers": [
+		{
+			"customType": "jsonata",
+			"fileFormat": "json",
+			"managerFilePatterns": ["devbox.json"],
+			"matchStrings": ["{ 'currentValue': $split($.'$schema', '/')[-3] }"],
+			"datasourceTemplate": "github-releases",
+			"depNameTemplate": "jetify-com/devbox"
+		}
+	],
+	"packageRules": [
+		{
+			"groupName": "jetify-com/devbox",
+			"matchPackageNames": ["jetify-com/devbox", "jetpackio/devbox"]
+		}
+	]
+}
