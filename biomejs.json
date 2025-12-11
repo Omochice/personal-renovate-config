@@ -7,7 +7,7 @@
 			"depNameTemplate": "@biomejs/biome",
 			"fileFormat": "json",
 			"managerFilePatterns": ["/(^|/)biome\\.jsonc?$/"],
-			"matchStrings": ["{'currentValue': $split($.'$schema',('/'))[-2]}"]
+			"matchStrings": ["{'currentValue': $split($.'$schema', '/')[-2]}"]
 		}
 	]
 }
