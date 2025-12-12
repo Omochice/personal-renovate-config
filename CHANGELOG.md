@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.11.0](https://github.com/Omochice/personal-renovate-config/compare/v1.10.0...v1.11.0) (2025-12-12)
+
+
+### Features
+
+* add grouping rule for devbox ([#1034](https://github.com/Omochice/personal-renovate-config/issues/1034)) ([1c82df1](https://github.com/Omochice/personal-renovate-config/commit/1c82df1da3d4179c3d0c4563e08f47f46c7f0bc3))
+* enable devbox grouping defaultly ([#1038](https://github.com/Omochice/personal-renovate-config/issues/1038)) ([ffcf187](https://github.com/Omochice/personal-renovate-config/commit/ffcf1872bca3b721233f3793a55c9be1fc830a35))
+
 ## [1.10.0](https://github.com/Omochice/personal-renovate-config/compare/v1.9.0...v1.10.0) (2025-12-06)
 
 
