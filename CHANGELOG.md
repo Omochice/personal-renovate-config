@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.11.1](https://github.com/Omochice/personal-renovate-config/compare/v1.11.0...v1.11.1) (2025-12-28)
+
+
+### Bug Fixes
+
+* make be enable to work managing flake.lock ([#1093](https://github.com/Omochice/personal-renovate-config/issues/1093)) ([8762eaf](https://github.com/Omochice/personal-renovate-config/commit/8762eaf56a1fee1a244526b35396a49b54e82346))
+
 ## [1.11.0](https://github.com/Omochice/personal-renovate-config/compare/v1.10.0...v1.11.0) (2025-12-12)
 
 
