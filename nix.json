@@ -4,14 +4,9 @@
 	"nix": {
 		"enabled": true
 	},
-	"packageRules": [
-		{
-			"matchManagers": ["nix"],
-			"lockFileMaintenance": {
-				"enabled": true,
-				"automerge": true,
-				"schedule": ["* * * * 1"]
-			}
-		}
-	]
+	"lockFileMaintenance": {
+		"enabled": true,
+		"automerge": true,
+		"extends": ["schedule:weekly"]
+	}
 }
