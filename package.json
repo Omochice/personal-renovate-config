@@ -16,7 +16,7 @@
 		"test:validate": "renovate-config-validator --strict default.json nix.json mise.json playwright.json replacement/*.json grouping/*.json"
 	},
 	"devDependencies": {
-		"@biomejs/biome": "2.3.11",
+		"@biomejs/biome": "2.3.12",
 		"jsonata": "2.1.0",
 		"npm-run-all2": "8.0.4",
 		"re2": "1.23.0",
