@@ -19,7 +19,7 @@
 		"@biomejs/biome": "2.3.12",
 		"jsonata": "2.1.0",
 		"npm-run-all2": "8.0.4",
-		"re2": "1.23.0",
+		"re2": "1.23.1",
 		"renovate": "42.92.4",
 		"sort-package-json": "3.6.0",
 		"vitest": "4.0.18",
