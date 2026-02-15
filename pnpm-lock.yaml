@@ -21,8 +21,8 @@ importers:
         specifier: 1.23.3
         version: 1.23.3
       renovate:
-        specifier: 43.8.5
-        version: 43.8.5(encoding@0.1.13)(typanion@3.14.0)
+        specifier: 43.10.2
+        version: 43.10.2(encoding@0.1.13)(typanion@3.14.0)
       sort-package-json:
         specifier: 3.6.1
         version: 3.6.1
@@ -2919,8 +2919,8 @@ packages:
   remark@15.0.1:
     resolution: {integrity: sha512-Eht5w30ruCXgFmxVUSlNWQ9iiimq07URKeFS3hNc8cUWy1llX4KDWfyEDZRycMc+znsN9Ux5/tJ/BFdgdOwA3A==}
 
-  renovate@43.8.5:
-    resolution: {integrity: sha512-QCgydLWe+ZiqbTp9av4fLunWgq/h4LHdpVcgvoFm7K4FG503d5LrZQ9fLMw4cI1XiTjQCxqcZKe542URZ08sWg==}
+  renovate@43.10.2:
+    resolution: {integrity: sha512-coeHE4lO1GVXb+kg6Vfecvk4RAnLrYAlzhTTTNkwokrHjtT6rEmbAvqyQDwq1NrI7PdWDFxUo1oSxRqPipxw7w==}
     engines: {node: ^24.11.0, pnpm: ^10.0.0}
     hasBin: true
 
@@ -3008,6 +3008,11 @@ packages:
 
   semver@7.7.3:
     resolution: {integrity: sha512-SdsKMrI9TdgjdweUSR9MweHA4EJ8YxHn8DFaDisvhVlUOe4BF1tLD7GAj0lIqWVl+dPb/rExr0Btby5loQm20Q==}
+    engines: {node: '>=10'}
+    hasBin: true
+
+  semver@7.7.4:
+    resolution: {integrity: sha512-vFKC2IEtQnVhpT78h1Yp8wzwrf8CM+MzKMHGJZfBtzhZNycRFnXsHk6E5TxIkkMsgNS7mdX3AGB7x2QM2di4lA==}
     engines: {node: '>=10'}
     hasBin: true
 
@@ -4586,7 +4591,7 @@ snapshots:
 
   '@npmcli/fs@5.0.0':
     dependencies:
-      semver: 7.7.3
+      semver: 7.7.4
 
   '@one-ini/wasm@0.2.0': {}
 
@@ -5464,7 +5469,7 @@ snapshots:
       hpagent: 1.2.0
       micromatch: 4.0.8
       p-limit: 2.3.0
-      semver: 7.7.3
+      semver: 7.7.4
       strip-ansi: 6.0.1
       tar: 6.2.1
       tinylogic: 2.0.0
@@ -5622,7 +5627,7 @@ snapshots:
 
   builtins@5.1.0:
     dependencies:
-      semver: 7.7.3
+      semver: 7.7.4
 
   bunyan@1.8.15:
     optionalDependencies:
@@ -5866,7 +5871,7 @@ snapshots:
       '@one-ini/wasm': 0.2.0
       commander: 14.0.3
       minimatch: 10.0.1
-      semver: 7.7.3
+      semver: 7.7.4
 
   email-addresses@5.0.0: {}
 
@@ -6185,7 +6190,7 @@ snapshots:
       es6-error: 4.1.1
       matcher: 3.0.0
       roarr: 2.15.4
-      semver: 7.7.3
+      semver: 7.7.4
       serialize-error: 7.0.1
 
   globalthis@1.0.4:
@@ -7009,7 +7014,7 @@ snapshots:
 
   node-abi@3.75.0:
     dependencies:
-      semver: 7.7.3
+      semver: 7.7.4
     optional: true
 
   node-domexception@1.0.0: {}
@@ -7061,7 +7066,7 @@ snapshots:
     dependencies:
       hosted-git-info: 4.1.0
       is-core-module: 2.16.1
-      semver: 7.7.3
+      semver: 7.7.4
       validate-npm-package-license: 3.0.4
 
   normalize-url@6.1.0: {}
@@ -7389,7 +7394,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  renovate@43.8.5(encoding@0.1.13)(typanion@3.14.0):
+  renovate@43.10.2(encoding@0.1.13)(typanion@3.14.0):
     dependencies:
       '@aws-sdk/client-codecommit': 3.980.0
       '@aws-sdk/client-ec2': 3.980.0
@@ -7493,7 +7498,7 @@ snapshots:
       remark-github: 12.0.0
       safe-stable-stringify: 2.5.0
       sax: 1.4.4
-      semver: 7.7.3
+      semver: 7.7.4
       semver-stable: 3.0.0
       semver-utils: 1.1.4
       shlex: 3.0.0
@@ -7619,6 +7624,8 @@ snapshots:
   semver@6.3.1: {}
 
   semver@7.7.3: {}
+
+  semver@7.7.4: {}
 
   serialize-error@7.0.1:
     dependencies:
