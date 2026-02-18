@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.11.2](https://github.com/Omochice/personal-renovate-config/compare/v1.11.1...v1.11.2) (2026-02-18)
+
+
+### Bug Fixes
+
+* use `local>` instead of reference same repo by `github>` ([#1266](https://github.com/Omochice/personal-renovate-config/issues/1266)) ([b063eec](https://github.com/Omochice/personal-renovate-config/commit/b063eec723a7f8e49fcd7db3c7d70e4a55064239))
+
 ## [1.11.1](https://github.com/Omochice/personal-renovate-config/compare/v1.11.0...v1.11.1) (2025-12-28)
 
 
