@@ -5,15 +5,15 @@
 		":timezone(Asia/Tokyo)",
 		":semanticCommits",
 		":prHourlyLimitNone",
-		"github>Omochice/personal-renovate-config//biomejs",
-		"github>Omochice/personal-renovate-config//mise",
-		"github>Omochice/personal-renovate-config//playwright",
-		"github>Omochice/personal-renovate-config//replacement",
-		"github>Omochice/personal-renovate-config//pnpm-nodeversion",
-		"github>Omochice/personal-renovate-config//gitlab",
-		"github>Omochice/personal-renovate-config//auto-merge",
-		"github>Omochice/personal-renovate-config//grouping/slidev",
-		"github>Omochice/personal-renovate-config//grouping/devbox"
+		"local>biomejs",
+		"local>mise",
+		"local>playwright",
+		"local>replacement",
+		"local>pnpm-nodeversion",
+		"local>gitlab",
+		"local>auto-merge",
+		"local>grouping/slidev",
+		"local>grouping/devbox"
 	],
 	"rebaseWhen": "behind-base-branch"
 }
