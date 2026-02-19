@@ -1,7 +1,0 @@
-{
-	"$schema": "https://docs.renovatebot.com/renovate-schema.json",
-	"extends": [
-		"local>replacement/release-please-action.json",
-		"local>replacement/textlint-rule-preset-ai-writing.json"
-	]
-}
