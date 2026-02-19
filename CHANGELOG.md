@@ -1,5 +1,18 @@
 # Changelog
 
+## [1.11.3](https://github.com/Omochice/personal-renovate-config/compare/v1.11.2...v1.11.3) (2026-02-19)
+
+
+### Bug Fixes
+
+* fix version pinnings ([#1269](https://github.com/Omochice/personal-renovate-config/issues/1269)) ([45b8c05](https://github.com/Omochice/personal-renovate-config/commit/45b8c056836c864aac12275778e62249fbb43c4b))
+
+
+### Continuous Integration
+
+* fix jq escape ([#1276](https://github.com/Omochice/personal-renovate-config/issues/1276)) ([fefa4da](https://github.com/Omochice/personal-renovate-config/commit/fefa4da2cf46f1f41df2ec76bcdf6f987c8bc34c))
+* use component setting instead ([#1275](https://github.com/Omochice/personal-renovate-config/issues/1275)) ([05f6d65](https://github.com/Omochice/personal-renovate-config/commit/05f6d65b3ca7c99c80c9325ff1d1d503d7ed58f7))
+
 ## [1.11.2](https://github.com/Omochice/personal-renovate-config/compare/v1.11.1...v1.11.2) (2026-02-18)
 
 
