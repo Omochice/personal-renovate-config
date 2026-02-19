@@ -8,10 +8,11 @@
 		"github>Omochice/personal-renovate-config//biomejs#v1.11.1",
 		"github>Omochice/personal-renovate-config//mise#v1.11.1",
 		"github>Omochice/personal-renovate-config//playwright#v1.11.1",
-		"github>Omochice/personal-renovate-config//replacement#v1.11.1",
 		"github>Omochice/personal-renovate-config//pnpm-nodeversion#v1.11.1",
 		"github>Omochice/personal-renovate-config//gitlab#v1.11.1",
 		"github>Omochice/personal-renovate-config//auto-merge#v1.11.1",
+		"github>Omochice/personal-renovate-config//replacement/release-please-action.json#v1.11.1",
+		"github>Omochice/personal-renovate-config//replacement/textlint-rule-preset-ai-writing.json#v1.11.1",
 		"github>Omochice/personal-renovate-config//grouping/slidev#v1.11.1",
 		"github>Omochice/personal-renovate-config//grouping/devbox#v1.11.1"
 	],
