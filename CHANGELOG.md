@@ -1,5 +1,32 @@
 # Changelog
 
+## [1.11.3](https://github.com/Omochice/personal-renovate-config/compare/v1.11.3...v1.11.3) (2026-02-19)
+
+
+### Features
+
+* add a grouping rule for slidev ([#924](https://github.com/Omochice/personal-renovate-config/issues/924)) ([4677fd4](https://github.com/Omochice/personal-renovate-config/commit/4677fd4140da250ddc34d266b07f324982d36a2d))
+* add grouping rule for devbox ([#1034](https://github.com/Omochice/personal-renovate-config/issues/1034)) ([1c82df1](https://github.com/Omochice/personal-renovate-config/commit/1c82df1da3d4179c3d0c4563e08f47f46c7f0bc3))
+* add new config for update flake.lock ([#1013](https://github.com/Omochice/personal-renovate-config/issues/1013)) ([bd14742](https://github.com/Omochice/personal-renovate-config/commit/bd14742b03d607ab2ac9de9cda7c9360fffe4b4e))
+* enable auto-merge when pin/pinDigest ([#865](https://github.com/Omochice/personal-renovate-config/issues/865)) ([3952e4b](https://github.com/Omochice/personal-renovate-config/commit/3952e4b2a97a463339198718039e1716bd800c8e))
+* enable devbox grouping defaultly ([#1038](https://github.com/Omochice/personal-renovate-config/issues/1038)) ([ffcf187](https://github.com/Omochice/personal-renovate-config/commit/ffcf1872bca3b721233f3793a55c9be1fc830a35))
+* stop hourly limit ([#864](https://github.com/Omochice/personal-renovate-config/issues/864)) ([a735777](https://github.com/Omochice/personal-renovate-config/commit/a7357775497072a9b287611f3718887037b20da6))
+* use automerge config ([#896](https://github.com/Omochice/personal-renovate-config/issues/896)) ([a66b4ea](https://github.com/Omochice/personal-renovate-config/commit/a66b4ea4b6ce5ef241edb5e70d41b76fbadc799f))
+
+
+### Bug Fixes
+
+* fix automerge regexp ([#899](https://github.com/Omochice/personal-renovate-config/issues/899)) ([73a24fb](https://github.com/Omochice/personal-renovate-config/commit/73a24fbcee9fcef71b54bbb741be7708df654596))
+* fix version pinnings ([#1269](https://github.com/Omochice/personal-renovate-config/issues/1269)) ([45b8c05](https://github.com/Omochice/personal-renovate-config/commit/45b8c056836c864aac12275778e62249fbb43c4b))
+* make be enable to work managing flake.lock ([#1093](https://github.com/Omochice/personal-renovate-config/issues/1093)) ([8762eaf](https://github.com/Omochice/personal-renovate-config/commit/8762eaf56a1fee1a244526b35396a49b54e82346))
+* use `local>` instead of reference same repo by `github>` ([#1266](https://github.com/Omochice/personal-renovate-config/issues/1266)) ([b063eec](https://github.com/Omochice/personal-renovate-config/commit/b063eec723a7f8e49fcd7db3c7d70e4a55064239))
+
+
+### Continuous Integration
+
+* fix jq escape ([#1276](https://github.com/Omochice/personal-renovate-config/issues/1276)) ([fefa4da](https://github.com/Omochice/personal-renovate-config/commit/fefa4da2cf46f1f41df2ec76bcdf6f987c8bc34c))
+* use component setting instead ([#1275](https://github.com/Omochice/personal-renovate-config/issues/1275)) ([05f6d65](https://github.com/Omochice/personal-renovate-config/commit/05f6d65b3ca7c99c80c9325ff1d1d503d7ed58f7))
+
 ## [1.11.3](https://github.com/Omochice/personal-renovate-config/compare/v1.11.2...v1.11.3) (2026-02-19)
 
 
