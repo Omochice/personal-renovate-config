@@ -21,8 +21,8 @@ importers:
         specifier: 1.23.3
         version: 1.23.3
       renovate:
-        specifier: 43.16.0
-        version: 43.16.0(encoding@0.1.13)(typanion@3.14.0)
+        specifier: 43.19.0
+        version: 43.19.0(encoding@0.1.13)(typanion@3.14.0)
       sort-package-json:
         specifier: 3.6.1
         version: 3.6.1
@@ -1592,8 +1592,8 @@ packages:
     resolution: {integrity: sha512-p9nwwR4qyT5W996vBZhdvBCnMhicY5ytZkR4D1Xj0wuTDEiMnjwR57Q3RXYY/s0EpX6Ay3vgIcfaR+ewGHsi+g==}
     engines: {node: '>=18.0'}
 
-  cronstrue@3.11.0:
-    resolution: {integrity: sha512-nXST7NEkjPF6loOTJtCwbLHB6cOVR5Ofuq/VZ4UGsZw/0HTvxy6mRCrDHOJ4xoLPcuS3ooruBLyUk3INaidKwg==}
+  cronstrue@3.12.0:
+    resolution: {integrity: sha512-k9oiM4G7U1GEEktOGfZabldP0gtFWTsaRVqq9X06ifytr73mpSYYdt+zGZBeS5lRCsqMfq0y7oSHycWGIJSo6g==}
     hasBin: true
 
   cross-spawn@7.0.6:
@@ -2995,8 +2995,8 @@ packages:
   remark@15.0.1:
     resolution: {integrity: sha512-Eht5w30ruCXgFmxVUSlNWQ9iiimq07URKeFS3hNc8cUWy1llX4KDWfyEDZRycMc+znsN9Ux5/tJ/BFdgdOwA3A==}
 
-  renovate@43.16.0:
-    resolution: {integrity: sha512-L5Ti49rBQFlVifQ5pnm2hhxZxg6S4sK0pzNdSdFFE8PsFjcFEIoVj9+pgkdEN6ah1ZTlWyoz17sOdH2dxHmrnA==}
+  renovate@43.19.0:
+    resolution: {integrity: sha512-6jzEgODQFcxJDTGJibi12UTWOGHbzq9xBkXsZwV+UXNrjmkL59LydNAYA1pjZey191qZ6ZWoYM0M7OjbiBzucQ==}
     engines: {node: ^24.11.0, pnpm: ^10.0.0}
     hasBin: true
 
@@ -5872,7 +5872,7 @@ snapshots:
 
   croner@9.1.0: {}
 
-  cronstrue@3.11.0: {}
+  cronstrue@3.12.0: {}
 
   cross-spawn@7.0.6:
     dependencies:
@@ -7552,7 +7552,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  renovate@43.16.0(encoding@0.1.13)(typanion@3.14.0):
+  renovate@43.19.0(encoding@0.1.13)(typanion@3.14.0):
     dependencies:
       '@aws-sdk/client-codecommit': 3.980.0
       '@aws-sdk/client-ec2': 3.980.0
@@ -7603,7 +7603,7 @@ snapshots:
       commander: 14.0.3
       conventional-commits-detector: 1.0.3
       croner: 9.1.0
-      cronstrue: 3.11.0
+      cronstrue: 3.12.0
       deepmerge: 4.3.1
       dequal: 2.0.3
       detect-indent: 7.0.2
