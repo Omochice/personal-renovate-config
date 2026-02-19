@@ -54,17 +54,23 @@ jobs:
           app-id: ${{ secrets.RELEASE_APP_ID }}
           private-key: ${{ secrets.RELEASE_PRIVATE_KEY }}
           permission-contents: write
+      - uses: pnpm/action-setup@41ff72655975bd51cab0327fa583b6e92b6d3061 # v4.2.0
+      - uses: actions/setup-node@6044e13b5dc448c55e2357c09f80417699197238 # v6.2.0
+        with:
+          node-version: lts/*
+          cache: pnpm
       - run: |
           sudo apt-get update
           sudo apt-get install -y moreutils
+      - run: pnpm install
       - run: |
-          jq --arg VERSION "$TAG_NAME" '.extends[] |= if test("#") then (split("#") | .[1] = $VERSION | join("#")) else . end' default.json | sponge default.json
+          jq --arg VERSION "v$(jq -r '.[\".\"]' .github/release-please-manifest.json)" '.extends[] |= if test("#") then (split("#") | .[1] = $VERSION | join("#")) else . end' default.json | sponge default.json
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git remote set-url origin "https://x-access-token:${APP_TOKEN}@github.com/${{ github.repository }}"
+          pnpm run fmt
           git add default.json
           git commit -m "chore: bump pinned version"
           git push
         env:
           APP_TOKEN: ${{ steps.app-token.outputs.token }}
-          TAG_NAME: ${{ needs.release-please.outputs.tag_name }}
