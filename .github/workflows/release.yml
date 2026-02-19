@@ -64,7 +64,7 @@ jobs:
           sudo apt-get install -y moreutils
       - run: pnpm install
       - run: |
-          jq --arg VERSION "v$(jq -r '.[\".\"]' .github/release-please-manifest.json)" '.extends[] |= if test("#") then (split("#") | .[1] = $VERSION | join("#")) else . end' default.json | sponge default.json
+          jq --arg VERSION "v$(jq -r '.["."]' .github/release-please-manifest.json)" '.extends[] |= if test("#") then (split("#") | .[1] = $VERSION | join("#")) else . end' default.json | sponge default.json
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git remote set-url origin "https://x-access-token:${APP_TOKEN}@github.com/${{ github.repository }}"
