@@ -1,7 +1,7 @@
 {
 	"$schema": "https://docs.renovatebot.com/renovate-schema.json",
 	"extends": [
-		"github>Omochice/personal-renovate-config//replacement/release-please-action.json",
-		"github>Omochice/personal-renovate-config//replacement/textlint-rule-preset-ai-writing.json"
+		"github>Omochice/personal-renovate-config//replacement/release-please-action.json#v1.11.1",
+		"github>Omochice/personal-renovate-config//replacement/textlint-rule-preset-ai-writing.json#v1.11.1"
 	]
 }
