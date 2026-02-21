@@ -21,8 +21,8 @@ importers:
         specifier: 1.23.3
         version: 1.23.3
       renovate:
-        specifier: 43.24.3
-        version: 43.24.3(encoding@0.1.13)(typanion@3.14.0)
+        specifier: 43.25.2
+        version: 43.25.2(encoding@0.1.13)(typanion@3.14.0)
       sort-package-json:
         specifier: 3.6.1
         version: 3.6.1
@@ -1600,8 +1600,8 @@ packages:
   core-util-is@1.0.3:
     resolution: {integrity: sha512-ZQBvi1DcpJ4GDqanjucZ2Hj3wEO5pZDS89BWbkcrvdxksJorwUDDZamX9ldFkp9aw2lmBDLgkObEA4DWNJ9FYQ==}
 
-  croner@9.1.0:
-    resolution: {integrity: sha512-p9nwwR4qyT5W996vBZhdvBCnMhicY5ytZkR4D1Xj0wuTDEiMnjwR57Q3RXYY/s0EpX6Ay3vgIcfaR+ewGHsi+g==}
+  croner@10.0.1:
+    resolution: {integrity: sha512-ixNtAJndqh173VQ4KodSdJEI6nuioBWI0V1ITNKhZZsO0pEMoDxz539T4FTTbSZ/xIOSuDnzxLVRqBVSvPNE2g==}
     engines: {node: '>=18.0'}
 
   cronstrue@3.12.0:
@@ -2906,8 +2906,8 @@ packages:
     deprecated: No longer maintained. Please contact the author of the relevant native addon; alternatives are available.
     hasBin: true
 
-  prettier@3.6.2:
-    resolution: {integrity: sha512-I7AIg5boAr5R0FFtJ6rCfD+LFsWHp81dolrFD8S79U9tb8Az2nGrJncnMSnys+bpQJfRUzqs9hnA81OAA3hCuQ==}
+  prettier@3.8.1:
+    resolution: {integrity: sha512-UOnG6LftzbdaHZcKoPFtOcCKztrQ57WkHDeRD9t/PTQtmT0NHSeWWepj6pS0z/N7+08BHFDQVUrfmfMRcZwbMg==}
     engines: {node: '>=14'}
     hasBin: true
 
@@ -3008,8 +3008,8 @@ packages:
   remark@15.0.1:
     resolution: {integrity: sha512-Eht5w30ruCXgFmxVUSlNWQ9iiimq07URKeFS3hNc8cUWy1llX4KDWfyEDZRycMc+znsN9Ux5/tJ/BFdgdOwA3A==}
 
-  renovate@43.24.3:
-    resolution: {integrity: sha512-8GeI/hGZkiqfe2DziFdPgIczcYT8jJPTKHi6QJ4rOa+aN/EvbDW8lRbjQhTlLLVM4cT76R14dC0jGtQUP3B3gQ==}
+  renovate@43.25.2:
+    resolution: {integrity: sha512-AlxW+SCk5yqYNGIXNInbpEr480+imcQIjUXtCcT89XztgsNWYvaqLgaKwhV1MPxgijhYAw6ktEudviQUc0T6mQ==}
     engines: {node: ^24.11.0, pnpm: ^10.0.0}
     hasBin: true
 
@@ -5950,7 +5950,7 @@ snapshots:
 
   core-util-is@1.0.3: {}
 
-  croner@9.1.0: {}
+  croner@10.0.1: {}
 
   cronstrue@3.12.0: {}
 
@@ -7466,7 +7466,7 @@ snapshots:
       tunnel-agent: 0.6.0
     optional: true
 
-  prettier@3.6.2: {}
+  prettier@3.8.1: {}
 
   proc-log@6.1.0: {}
 
@@ -7625,7 +7625,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  renovate@43.24.3(encoding@0.1.13)(typanion@3.14.0):
+  renovate@43.25.2(encoding@0.1.13)(typanion@3.14.0):
     dependencies:
       '@aws-sdk/client-codecommit': 3.992.0
       '@aws-sdk/client-ec2': 3.992.0
@@ -7675,7 +7675,7 @@ snapshots:
       clean-git-ref: 2.0.1
       commander: 14.0.3
       conventional-commits-detector: 1.0.3
-      croner: 9.1.0
+      croner: 10.0.1
       cronstrue: 3.12.0
       deepmerge: 4.3.1
       dequal: 2.0.3
@@ -7720,7 +7720,7 @@ snapshots:
       p-queue: 9.1.0
       p-throttle: 8.1.0
       parse-link-header: 2.0.0
-      prettier: 3.6.2
+      prettier: 3.8.1
       protobufjs: 8.0.0
       punycode: 2.3.1
       redis: 5.10.0
