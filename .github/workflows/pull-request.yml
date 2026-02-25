@@ -55,7 +55,7 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        node: ["24.13.1", "lts/*", "current"]
+        node: ["24.14.0", "lts/*", "current"]
     permissions: {}
     continue-on-error: ${{ matrix.node == 'current' }}
     steps:
