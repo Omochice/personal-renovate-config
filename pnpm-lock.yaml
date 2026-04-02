@@ -21,8 +21,8 @@ importers:
         specifier: 1.23.3
         version: 1.23.3
       renovate:
-        specifier: 43.100.0
-        version: 43.100.0(typanion@3.14.0)
+        specifier: 43.100.1
+        version: 43.100.1(typanion@3.14.0)
       sort-package-json:
         specifier: 3.6.1
         version: 3.6.1
@@ -1640,8 +1640,8 @@ packages:
     resolution: {integrity: sha512-vtcDfH3TOjP8UekytvnHH1o1P4FcUdt4eQ1Y+Abap1tk/OB2MWQvcwS2ClCd1zuIhc3JKOx6p3kod8Vfys3E+A==}
     engines: {node: '>=0.3.1'}
 
-  diff@8.0.3:
-    resolution: {integrity: sha512-qejHi7bcSD4hQAZE0tNAawRK1ZtafHDmMTMkrrIGgSLl7hTnQHmKCeB45xAcbfTqK2zowkM3j3bHt/4b/ARbYQ==}
+  diff@8.0.4:
+    resolution: {integrity: sha512-DPi0FmjiSU5EvQV0++GFDOJ9ASQUVFh5kD+OzOnYdi7n3Wpm9hWWGfB/O2blfHcMVTL5WkQXSnRiK9makhrcnw==}
     engines: {node: '>=0.3.1'}
 
   dom-serializer@2.0.0:
@@ -2864,8 +2864,8 @@ packages:
   remark@15.0.1:
     resolution: {integrity: sha512-Eht5w30ruCXgFmxVUSlNWQ9iiimq07URKeFS3hNc8cUWy1llX4KDWfyEDZRycMc+znsN9Ux5/tJ/BFdgdOwA3A==}
 
-  renovate@43.100.0:
-    resolution: {integrity: sha512-ta0VHFlydPWyCXeaWCCrnDZCvvjBx+AL8DequhGuwQzpxfq08FxRm6C8Ca7wk/TvGoExlghJmNL3Jqw92/P8AA==}
+  renovate@43.100.1:
+    resolution: {integrity: sha512-xOETXCT/qkVn2G8ZyatV7OQLi0kCHf7WcKroA4BaKW4n2as95vKYQ7Y9V/iU7kJDo0z/6h0P7tagiVTgy1/SFA==}
     engines: {node: ^24.11.0, pnpm: ^10.0.0}
     hasBin: true
 
@@ -5646,7 +5646,7 @@ snapshots:
 
   diff@5.2.2: {}
 
-  diff@8.0.3: {}
+  diff@8.0.4: {}
 
   dom-serializer@2.0.0:
     dependencies:
@@ -7149,7 +7149,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  renovate@43.100.0(typanion@3.14.0):
+  renovate@43.100.1(typanion@3.14.0):
     dependencies:
       '@aws-sdk/client-codecommit': 3.1000.0
       '@aws-sdk/client-ec2': 3.1000.0
@@ -7204,7 +7204,7 @@ snapshots:
       deepmerge: 4.3.1
       dequal: 2.0.3
       detect-indent: 7.0.2
-      diff: 8.0.3
+      diff: 8.0.4
       editorconfig: 3.0.2
       email-addresses: 5.0.0
       emoji-regex: 10.6.0
