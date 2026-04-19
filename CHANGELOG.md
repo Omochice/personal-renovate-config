@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.12.0](https://github.com/Omochice/personal-renovate-config/compare/v1.11.3...v1.12.0) (2026-04-19)
+
+
+### Features
+
+* add manager for devEngies ([#1515](https://github.com/Omochice/personal-renovate-config/issues/1515)) ([1b8d6b7](https://github.com/Omochice/personal-renovate-config/commit/1b8d6b7aa31286dd4e25815ddc375e96b1d6571b))
+
 ## [1.11.3](https://github.com/Omochice/personal-renovate-config/compare/v1.11.2...v1.11.3) (2026-02-19)
 
 
