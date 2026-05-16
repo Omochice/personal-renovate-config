@@ -1,0 +1,8 @@
+allowBuilds:
+  "@biomejs/biome": true
+  esbuild: true
+  re2: true
+  better-sqlite3: false
+  core-js-pure: false
+  dtrace-provider: false
+  protobufjs: false
