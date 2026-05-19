@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.13.0](https://github.com/Omochice/personal-renovate-config/compare/v1.12.0...v1.13.0) (2026-05-19)
+
+
+### Features
+
+* add grouping rule for knip ([#1596](https://github.com/Omochice/personal-renovate-config/issues/1596)) ([1cacb63](https://github.com/Omochice/personal-renovate-config/commit/1cacb63ef7b9e49c714c4d0cd82429e71cf70c05))
+
 ## [1.12.0](https://github.com/Omochice/personal-renovate-config/compare/v1.11.3...v1.12.0) (2026-04-19)
 
 
