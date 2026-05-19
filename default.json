@@ -15,7 +15,8 @@
 		"github>Omochice/personal-renovate-config//replacement/release-please-action.json#v1.12.0",
 		"github>Omochice/personal-renovate-config//replacement/textlint-rule-preset-ai-writing.json#v1.12.0",
 		"github>Omochice/personal-renovate-config//grouping/slidev#v1.12.0",
-		"github>Omochice/personal-renovate-config//grouping/devbox#v1.12.0"
+		"github>Omochice/personal-renovate-config//grouping/devbox#v1.12.0",
+		"github>Omochice/personal-renovate-config//grouping/knip#v1.13.0"
 	],
 	"rebaseWhen": "behind-base-branch"
 }
