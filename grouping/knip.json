@@ -1,0 +1,10 @@
+{
+	"$schema": "https://docs.renovatebot.com/renovate-schema.json",
+	"description": "Grouping rule for knip",
+	"packageRules": [
+		{
+			"groupName": "knip monorepo",
+			"matchPackageNames": ["knip", "/^@knip\\//"]
+		}
+	]
+}
