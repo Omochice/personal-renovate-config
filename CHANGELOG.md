@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.14.0](https://github.com/Omochice/personal-renovate-config/compare/v1.13.0...v1.14.0) (2026-05-27)
+
+
+### Features
+
+* add grouping rule for takumi-js ([#1614](https://github.com/Omochice/personal-renovate-config/issues/1614)) ([7c678d3](https://github.com/Omochice/personal-renovate-config/commit/7c678d3f7d86926dd2ab1c70e7bf0650bf14b2c4))
+
 ## [1.13.0](https://github.com/Omochice/personal-renovate-config/compare/v1.12.0...v1.13.0) (2026-05-19)
 
 
