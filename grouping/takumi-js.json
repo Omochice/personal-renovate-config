@@ -1,0 +1,10 @@
+{
+	"$schema": "https://docs.renovatebot.com/renovate-schema.json",
+	"description": "Grouping rule for takumi-js",
+	"packageRules": [
+		{
+			"groupName": "takumi-js monorepo",
+			"matchPackageNames": ["takumi-js", "/^@takumi-rs\\//"]
+		}
+	]
+}
