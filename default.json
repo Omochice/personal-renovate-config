@@ -16,7 +16,8 @@
 		"github>Omochice/personal-renovate-config//replacement/textlint-rule-preset-ai-writing.json#v1.13.0",
 		"github>Omochice/personal-renovate-config//grouping/slidev#v1.13.0",
 		"github>Omochice/personal-renovate-config//grouping/devbox#v1.13.0",
-		"github>Omochice/personal-renovate-config//grouping/knip#v1.13.0"
+		"github>Omochice/personal-renovate-config//grouping/knip#v1.13.0",
+		"github>Omochice/personal-renovate-config//grouping/takumi-js#v1.14.0"
 	],
 	"rebaseWhen": "behind-base-branch"
 }
