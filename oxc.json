@@ -7,7 +7,7 @@
 			"fileFormat": "json",
 			"managerFilePatterns": ["/(^|/)\\.oxlintrc(\\.json)?$/"],
 			"matchStrings": [
-				"{ 'currentValue': $split($split($.'$schema', '/')[-4], '_v')[-1] }"
+				"{ 'currentValue': $contains($.'$schema', '_v') ? $substringBefore($substringAfter($.'$schema', '_v'), '/') : undefined }"
 			],
 			"datasourceTemplate": "npm",
 			"depNameTemplate": "oxlint"
@@ -17,7 +17,7 @@
 			"fileFormat": "json",
 			"managerFilePatterns": ["/(^|/)\\.oxfmtrc\\.json$/"],
 			"matchStrings": [
-				"{ 'currentValue': $split($split($.'$schema', '/')[-4], '_v')[-1] }"
+				"{ 'currentValue': $contains($.'$schema', '_v') ? $substringBefore($substringAfter($.'$schema', '_v'), '/') : undefined }"
 			],
 			"datasourceTemplate": "npm",
 			"depNameTemplate": "oxfmt"
