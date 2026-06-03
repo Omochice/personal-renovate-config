@@ -1,0 +1,26 @@
+{
+	"$schema": "https://docs.renovatebot.com/renovate-schema.json",
+	"description": "update $schema for oxfmt and oxlint",
+	"customManagers": [
+		{
+			"customType": "jsonata",
+			"fileFormat": "json",
+			"managerFilePatterns": ["/(^|/)\\.oxlintrc(\\.json)?$/"],
+			"matchStrings": [
+				"{ 'currentValue': $contains($.'$schema', '_v') ? $substringBefore($substringAfter($.'$schema', '_v'), '/') : undefined }"
+			],
+			"datasourceTemplate": "npm",
+			"depNameTemplate": "oxlint"
+		},
+		{
+			"customType": "jsonata",
+			"fileFormat": "json",
+			"managerFilePatterns": ["/(^|/)\\.oxfmtrc\\.json$/"],
+			"matchStrings": [
+				"{ 'currentValue': $contains($.'$schema', '_v') ? $substringBefore($substringAfter($.'$schema', '_v'), '/') : undefined }"
+			],
+			"datasourceTemplate": "npm",
+			"depNameTemplate": "oxfmt"
+		}
+	]
+}
