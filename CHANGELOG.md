@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.15.0](https://github.com/Omochice/personal-renovate-config/compare/v1.14.0...v1.15.0) (2026-06-03)
+
+
+### Features
+
+* add update config for oxfmt and oxlint schema version ([#1630](https://github.com/Omochice/personal-renovate-config/issues/1630)) ([376a99e](https://github.com/Omochice/personal-renovate-config/commit/376a99eee18f453b65619bc77402ad8eccd8213e))
+
 ## [1.14.0](https://github.com/Omochice/personal-renovate-config/compare/v1.13.0...v1.14.0) (2026-05-27)
 
 
