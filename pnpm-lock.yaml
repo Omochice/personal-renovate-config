@@ -21,8 +21,8 @@ importers:
         specifier: 1.25.0
         version: 1.25.0
       renovate:
-        specifier: 43.244.3
-        version: 43.244.3(typanion@3.14.0)
+        specifier: 43.244.4
+        version: 43.244.4(typanion@3.14.0)
       sort-package-json:
         specifier: 3.7.1
         version: 3.7.1
@@ -2258,8 +2258,8 @@ packages:
   remark@15.0.1:
     resolution: {integrity: sha512-Eht5w30ruCXgFmxVUSlNWQ9iiimq07URKeFS3hNc8cUWy1llX4KDWfyEDZRycMc+znsN9Ux5/tJ/BFdgdOwA3A==}
 
-  renovate@43.244.3:
-    resolution: {integrity: sha512-a5thSSeVYBR2vGQVE97WF2o04FS4VWgO/78Amr9GbWyUnQictq2rQmPcq56tAZCld1HoNF92ElsuB/BTelM5zw==}
+  renovate@43.244.4:
+    resolution: {integrity: sha512-0SZf8B1ksJ9sIrG8GZFClEjH/ErIqp67KI8dEHqbqTJc9udqtFLwzSBNu8OwABSdn/abecpL+RGphJNrKp9thg==}
     engines: {node: ^24.11.0, pnpm: ^11.0.0}
     hasBin: true
 
@@ -2333,11 +2333,6 @@ packages:
 
   semver@7.8.3:
     resolution: {integrity: sha512-wnilbGyMxzbY7dNOl7jpKbLSjcfeweJWU5j4+u5qW+6/wuGD9KzIGOyZnQVSBM9E7DtWaaH3CyHkppYrKYoxwg==}
-    engines: {node: '>=10'}
-    hasBin: true
-
-  semver@7.8.4:
-    resolution: {integrity: sha512-rUCObTnP32Q08R2uuIrt7r9PlEonuTmtuXYcW6s5kjdlj3xbnwe+21yXptAUYcMAABLkYYTtnmzb3w3EDZfueA==}
     engines: {node: '>=10'}
     hasBin: true
 
@@ -3263,7 +3258,7 @@ snapshots:
 
   '@npmcli/fs@5.0.0':
     dependencies:
-      semver: 7.8.4
+      semver: 7.8.5
 
   '@one-ini/wasm@0.2.1': {}
 
@@ -3810,7 +3805,7 @@ snapshots:
       hpagent: 1.2.0
       micromatch: 4.0.8
       p-limit: 2.3.0
-      semver: 7.8.4
+      semver: 7.8.5
       strip-ansi: 6.0.1
       tar: 7.5.13
       tinylogic: 2.0.0
@@ -3931,7 +3926,7 @@ snapshots:
 
   builtins@5.1.0:
     dependencies:
-      semver: 7.8.4
+      semver: 7.8.5
 
   bunyan@1.8.15:
     optionalDependencies:
@@ -4156,7 +4151,7 @@ snapshots:
       '@one-ini/wasm': 0.2.1
       commander: 14.0.3
       minimatch: 10.2.5
-      semver: 7.8.4
+      semver: 7.8.5
 
   email-addresses@5.0.0: {}
 
@@ -4388,7 +4383,7 @@ snapshots:
       es6-error: 4.1.1
       matcher: 3.0.0
       roarr: 2.15.4
-      semver: 7.8.4
+      semver: 7.8.5
       serialize-error: 7.0.1
 
   globalthis@1.0.4:
@@ -5357,7 +5352,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  renovate@43.244.3(typanion@3.14.0):
+  renovate@43.244.4(typanion@3.14.0):
     dependencies:
       '@aws-sdk/client-codecommit': 3.1053.0
       '@aws-sdk/client-ec2': 3.1053.0
@@ -5568,8 +5563,6 @@ snapshots:
   semver@7.8.1: {}
 
   semver@7.8.3: {}
-
-  semver@7.8.4: {}
 
   semver@7.8.5: {}
 
