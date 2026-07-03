@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.16.0](https://github.com/Omochice/personal-renovate-config/compare/v1.15.0...v1.16.0) (2026-07-03)
+
+
+### Features
+
+* add pnpm grouping rule ([#1724](https://github.com/Omochice/personal-renovate-config/issues/1724)) ([e64d008](https://github.com/Omochice/personal-renovate-config/commit/e64d008b424576658f7c42cc4294d186f881ef78))
+
 ## [1.15.0](https://github.com/Omochice/personal-renovate-config/compare/v1.14.0...v1.15.0) (2026-06-03)
 
 
