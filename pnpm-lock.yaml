@@ -21,8 +21,8 @@ importers:
         specifier: 1.25.0
         version: 1.25.0
       renovate:
-        specifier: 43.252.1
-        version: 43.252.1(typanion@3.14.0)
+        specifier: 43.252.3
+        version: 43.252.3(typanion@3.14.0)
       sort-package-json:
         specifier: 4.0.0
         version: 4.0.0
@@ -860,6 +860,10 @@ packages:
 
   adm-zip@0.5.17:
     resolution: {integrity: sha512-+Ut8d9LLqwEvHHJl1+PIHqoyDxFgVN847JTVM3Izi3xHDWPE4UtzzXysMZQs64DMcrJfBeS/uoEP4AD3HQHnQQ==}
+    engines: {node: '>=12.0'}
+
+  adm-zip@0.5.18:
+    resolution: {integrity: sha512-ufJnssQGbxzLNS1Ho9bCtX4rQKCCvoVuDLHoJyc3F9dOGDB4BkWs2Ci0kv53lqocAEQ/Cbi+I2XCsNYGqVYqng==}
     engines: {node: '>=12.0'}
 
   ae-cvss-calculator@1.0.13:
@@ -2284,8 +2288,8 @@ packages:
   remark@15.0.1:
     resolution: {integrity: sha512-Eht5w30ruCXgFmxVUSlNWQ9iiimq07URKeFS3hNc8cUWy1llX4KDWfyEDZRycMc+znsN9Ux5/tJ/BFdgdOwA3A==}
 
-  renovate@43.252.1:
-    resolution: {integrity: sha512-VMp8vXuiK5G2/rEInBZXj7M/hth4MG3URL4dyp0/iRYboRkqQ8t2Fmru6B59qk6gQ5+N6Wm4YwYSPGvzefAzhA==}
+  renovate@43.252.3:
+    resolution: {integrity: sha512-VceWDHla2um/hUQ8s8Vg6dRY2pb2iDPFA8xw9JaQXlDlkw9FOhiQ52a26CkK0o2LiemYETpBvwmqU6T1fsZMAg==}
     engines: {node: ^24.11.0, pnpm: ^11.0.0}
     hasBin: true
 
@@ -3843,6 +3847,8 @@ snapshots:
 
   adm-zip@0.5.17: {}
 
+  adm-zip@0.5.18: {}
+
   ae-cvss-calculator@1.0.13: {}
 
   agent-base@7.1.4: {}
@@ -5393,7 +5399,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  renovate@43.252.1(typanion@3.14.0):
+  renovate@43.252.3(typanion@3.14.0):
     dependencies:
       '@aws-sdk/client-codecommit': 3.1075.0
       '@aws-sdk/client-ec2': 3.1075.0
@@ -5432,7 +5438,7 @@ snapshots:
       '@sindresorhus/is': 8.1.0
       '@yarnpkg/core': 4.9.0(typanion@3.14.0)
       '@yarnpkg/parsers': 3.0.3
-      adm-zip: 0.5.17
+      adm-zip: 0.5.18
       ae-cvss-calculator: 1.0.13
       agentkeepalive: 4.6.0
       async-mutex: 0.5.0
