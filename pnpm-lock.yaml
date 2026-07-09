@@ -21,8 +21,8 @@ importers:
         specifier: 1.25.0
         version: 1.25.0
       renovate:
-        specifier: 43.252.3
-        version: 43.252.3(typanion@3.14.0)
+        specifier: 43.252.5
+        version: 43.252.5(typanion@3.14.0)
       sort-package-json:
         specifier: 4.0.0
         version: 4.0.0
@@ -525,12 +525,12 @@ packages:
     resolution: {integrity: sha512-FBLawccaWOPwqXgMSB3FTp1VTfGJWSTTXY2Q3kWPoLYOpKYBr3V37vtqFLjb5wUFkrXN2Sj+S840JXKfHwy8Rg==}
     engines: {node: '>=22.12.0', pnpm: '>=10.0.0'}
 
-  '@renovatebot/osv-offline-db@3.0.5':
-    resolution: {integrity: sha512-AGHe9dqmidu3ccckMXE8o5eI/eJvxflLr9u9rxBwNKb26NhQv0vTnm/TxOk6IRbsTdZWKHeWuCnyPhdVN8pJKw==}
+  '@renovatebot/osv-offline-db@3.0.6':
+    resolution: {integrity: sha512-JWvtVaAqTcOc3gHIi++vJ4jyWoiTU8bl6DeHlQVvrpjQJtAw5Li+xSi4iXs9npajhPg3hWz1YvappUdWUdCVNg==}
     engines: {node: '>=22.12.0', pnpm: '>=10.0.0'}
 
-  '@renovatebot/osv-offline@3.0.5':
-    resolution: {integrity: sha512-RRg90Cce+A7tAmdbREZjVhSqgDFHYGm8qFnIwJOanozswfHpVk57yg7SSF11RjzGMpBV9j3HvgjtTYkMGCXMOg==}
+  '@renovatebot/osv-offline@3.0.6':
+    resolution: {integrity: sha512-4SY53l7L1J+JML2eoMihLx6GUkwbYF+jZAEsjwStIOWFg5XDToSuWVYwF2S3NCLSq8sNzIDhU0tjBoh0NwEwyg==}
     engines: {node: '>=22.12.0', pnpm: '>=10.0.0'}
 
   '@renovatebot/pep440@5.0.0':
@@ -858,10 +858,6 @@ packages:
     engines: {node: '>=0.4.0'}
     hasBin: true
 
-  adm-zip@0.5.17:
-    resolution: {integrity: sha512-+Ut8d9LLqwEvHHJl1+PIHqoyDxFgVN847JTVM3Izi3xHDWPE4UtzzXysMZQs64DMcrJfBeS/uoEP4AD3HQHnQQ==}
-    engines: {node: '>=12.0'}
-
   adm-zip@0.5.18:
     resolution: {integrity: sha512-ufJnssQGbxzLNS1Ho9bCtX4rQKCCvoVuDLHoJyc3F9dOGDB4BkWs2Ci0kv53lqocAEQ/Cbi+I2XCsNYGqVYqng==}
     engines: {node: '>=12.0'}
@@ -1077,8 +1073,8 @@ packages:
     resolution: {integrity: sha512-ixNtAJndqh173VQ4KodSdJEI6nuioBWI0V1ITNKhZZsO0pEMoDxz539T4FTTbSZ/xIOSuDnzxLVRqBVSvPNE2g==}
     engines: {node: '>=18.0'}
 
-  cronstrue@3.21.0:
-    resolution: {integrity: sha512-6DgX87NpjknhNmYC0/JjexQIAwCvtaUNoayqxLsciU5NkwGcEhuXLgXkIOX/bsuXL4f/aaLfgimJ6/2X8c5ezg==}
+  cronstrue@3.23.0:
+    resolution: {integrity: sha512-sIBZcwhpwkarRxfAHctpqGU9RapM7aLg5IktORluDnnUNkaTIIxEfI6S5IQy1isBGyTmgbbz4X6xPqpUgK7l0A==}
     hasBin: true
 
   cross-spawn@7.0.6:
@@ -2288,8 +2284,8 @@ packages:
   remark@15.0.1:
     resolution: {integrity: sha512-Eht5w30ruCXgFmxVUSlNWQ9iiimq07URKeFS3hNc8cUWy1llX4KDWfyEDZRycMc+znsN9Ux5/tJ/BFdgdOwA3A==}
 
-  renovate@43.252.3:
-    resolution: {integrity: sha512-VceWDHla2um/hUQ8s8Vg6dRY2pb2iDPFA8xw9JaQXlDlkw9FOhiQ52a26CkK0o2LiemYETpBvwmqU6T1fsZMAg==}
+  renovate@43.252.5:
+    resolution: {integrity: sha512-CzFVUI+gM6Kmergz+LVVuyC+CQLV3zHY9CakT8rVj0L1edQ8V5ycYjIbecCOOuqmFr2yuzLOisfFB8FSpRaxAA==}
     engines: {node: ^24.11.0, pnpm: ^11.0.0}
     hasBin: true
 
@@ -3496,16 +3492,16 @@ snapshots:
       klona: 2.0.6
       moo: 0.5.3
 
-  '@renovatebot/osv-offline-db@3.0.5':
+  '@renovatebot/osv-offline-db@3.0.6':
     dependencies:
       debug: 4.4.3
     transitivePeerDependencies:
       - supports-color
 
-  '@renovatebot/osv-offline@3.0.5':
+  '@renovatebot/osv-offline@3.0.6':
     dependencies:
-      '@renovatebot/osv-offline-db': 3.0.5
-      adm-zip: 0.5.17
+      '@renovatebot/osv-offline-db': 3.0.6
+      adm-zip: 0.5.18
       debug: 4.4.3
       fs-extra: 11.3.5
       got: 15.0.7
@@ -3845,8 +3841,6 @@ snapshots:
 
   acorn@8.17.0: {}
 
-  adm-zip@0.5.17: {}
-
   adm-zip@0.5.18: {}
 
   ae-cvss-calculator@1.0.13: {}
@@ -4038,7 +4032,7 @@ snapshots:
 
   croner@10.0.1: {}
 
-  cronstrue@3.21.0: {}
+  cronstrue@3.23.0: {}
 
   cross-spawn@7.0.6:
     dependencies:
@@ -5399,7 +5393,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  renovate@43.252.3(typanion@3.14.0):
+  renovate@43.252.5(typanion@3.14.0):
     dependencies:
       '@aws-sdk/client-codecommit': 3.1075.0
       '@aws-sdk/client-ec2': 3.1075.0
@@ -5431,7 +5425,7 @@ snapshots:
       '@redis/client': 5.12.1(@opentelemetry/api@1.9.1)
       '@renovatebot/detect-tools': 4.0.8
       '@renovatebot/good-enough-parser': 2.0.1
-      '@renovatebot/osv-offline': 3.0.5
+      '@renovatebot/osv-offline': 3.0.6
       '@renovatebot/pep440': 5.0.0
       '@renovatebot/pgp': 1.3.14
       '@renovatebot/ruby-semver': 5.0.0
@@ -5450,7 +5444,7 @@ snapshots:
       clean-git-ref: 2.0.1
       commander: 14.0.3
       croner: 10.0.1
-      cronstrue: 3.21.0
+      cronstrue: 3.23.0
       deepmerge: 4.3.1
       dequal: 2.0.3
       detect-indent: 7.0.2
