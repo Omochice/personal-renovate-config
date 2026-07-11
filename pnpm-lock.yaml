@@ -18,8 +18,8 @@ importers:
         specifier: 9.0.2
         version: 9.0.2
       re2:
-        specifier: 1.25.2
-        version: 1.25.2
+        specifier: 1.26.0
+        version: 1.26.0
       renovate:
         specifier: 43.255.2
         version: 43.255.2(typanion@3.14.0)
@@ -1546,6 +1546,11 @@ packages:
     engines: {node: '>=18'}
     hasBin: true
 
+  install-artifact-from-github@1.7.0:
+    resolution: {integrity: sha512-qAb91yAKVF9rFY4rVP21ZtYUyCScxAFt9udwzVWNLBE1pQcdQeB2gd1HlNPcQNYCzCDvJ/QJQPuWQ6aTmSlU8g==}
+    engines: {node: '>=18'}
+    hasBin: true
+
   is-arrayish@0.2.1:
     resolution: {integrity: sha512-zz06S8t0ozoDXMG+ube26zeCTNXcKIPJZJi8hBrF4idCLms4CG9QtK7qBl1boi5ODzFpjswb5JPmHCbMpjaYzg==}
 
@@ -2269,8 +2274,8 @@ packages:
     resolution: {integrity: sha512-mtxKjWS+VYIt2ijgt6ohEdwzNlGPom1whyaEKJD40cBc/wqkO1vJoOyK539Qb8Xa9m4GA6hiPGDIbW/d3egSRQ==}
     engines: {node: ^22.22.2 || ^24.15.0 || >=26.0.0}
 
-  re2@1.25.2:
-    resolution: {integrity: sha512-t75KS05wrPM0S7IRbM0l/WUYlHftJj3WAzQJAcSH8CrDP/jFYicZbMYTKohJ8w/3kFGwkY/G8/dGtC6CdShDlw==}
+  re2@1.26.0:
+    resolution: {integrity: sha512-QTEfFp0nu1eT/HKKZC+2BKM9Lb8uqprGkcHhro9r3giiKS+1SnNZBZ1m7C7Axi/VR1YGXiu3mp35UA53yHAuNw==}
     engines: {node: ^22.22.2 || ^24.15.0 || >=26.0.0}
 
   read-package-json-fast@6.0.0:
@@ -4566,7 +4571,10 @@ snapshots:
 
   ini@6.0.0: {}
 
-  install-artifact-from-github@1.6.0: {}
+  install-artifact-from-github@1.6.0:
+    optional: true
+
+  install-artifact-from-github@1.7.0: {}
 
   is-arrayish@0.2.1: {}
 
@@ -5360,9 +5368,9 @@ snapshots:
       node-gyp: 13.0.0
     optional: true
 
-  re2@1.25.2:
+  re2@1.26.0:
     dependencies:
-      install-artifact-from-github: 1.6.0
+      install-artifact-from-github: 1.7.0
       nan: 2.28.0
       node-gyp: 13.0.0
 
