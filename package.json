@@ -25,7 +25,7 @@
 		"vitest": "4.1.10",
 		"yaml": "2.9.0"
 	},
-	"packageManager": "pnpm@11.10.0",
+	"packageManager": "pnpm@11.11.0",
 	"pnpm": {
 		"onlyBuiltDependencies": [
 			"@biomejs/biome",
