@@ -17,7 +17,7 @@
 	},
 	"devDependencies": {
 		"@biomejs/biome": "2.5.4",
-		"jsonata": "2.2.1",
+		"jsonata": "2.2.2",
 		"npm-run-all2": "9.0.2",
 		"re2": "1.26.0",
 		"renovate": "43.265.0",
