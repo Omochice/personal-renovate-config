@@ -1,6 +1,24 @@
 {
 	"$schema": "https://docs.renovatebot.com/renovate-schema.json",
-	"description": "Grouping rule for knip",
+	"description": "Grouping rule and $schema version management for knip",
+	"customManagers": [
+		{
+			"customType": "jsonata",
+			"fileFormat": "json",
+			"managerFilePatterns": [
+				"**/knip.json",
+				"**/knip.jsonc",
+				"**/.knip.json",
+				"**/.knip.jsonc"
+			],
+			"matchStrings": [
+				"{ 'currentValue': $contains($.'$schema', 'knip@') ? $substringBefore($substringAfter($.'$schema', 'knip@'), '/') : undefined }"
+			],
+			"datasourceTemplate": "npm",
+			"depNameTemplate": "knip",
+			"depTypeTemplate": "devDependencies"
+		}
+	],
 	"packageRules": [
 		{
 			"groupName": "knip monorepo",
