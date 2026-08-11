@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.17.0](https://github.com/Omochice/personal-renovate-config/compare/v1.16.0...v1.17.0) (2026-08-11)
+
+
+### Features
+
+* manage $schema version in knip config files ([#1865](https://github.com/Omochice/personal-renovate-config/issues/1865)) ([c72c1ba](https://github.com/Omochice/personal-renovate-config/commit/c72c1ba012c0cc49e12a966a6143dfca4c7be298))
+
 ## [1.16.0](https://github.com/Omochice/personal-renovate-config/compare/v1.15.0...v1.16.0) (2026-07-03)
 
 
