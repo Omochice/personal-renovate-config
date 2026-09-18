@@ -21,5 +21,6 @@
 		"github>Omochice/personal-renovate-config//replacement/release-please-action.json#v1.17.0",
 		"github>Omochice/personal-renovate-config//replacement/textlint-rule-preset-ai-writing.json#v1.17.0"
 	],
+	"osvVulnerabilityAlerts": true,
 	"rebaseWhen": "behind-base-branch"
 }
