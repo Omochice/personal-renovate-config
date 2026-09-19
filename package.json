@@ -22,7 +22,7 @@
 		"re2": "1.26.1",
 		"renovate": "44.93.5",
 		"sort-package-json": "4.0.0",
-		"vitest": "4.1.11",
+		"vitest": "5.0.1",
 		"yaml": "2.9.1"
 	},
 	"packageManager": "pnpm@11.27.0",
