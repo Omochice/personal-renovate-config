@@ -3,6 +3,8 @@ kind: Repository
 metadata:
   name: personal-renovate-config
   owner: Omochice
+reconcile:
+  rulesets: authoritative
 spec:
   description: My personal renovate configuration(experimental!)
   visibility: public
