@@ -4,8 +4,14 @@
 	"platformAutomerge": true,
 	"packageRules": [
 		{
+			"description": "Automerge non-major updates of stable packages",
 			"matchUpdateTypes": ["minor", "patch", "pin", "pinDigest"],
 			"matchCurrentVersion": "!/^v?0/",
+			"automerge": true
+		},
+		{
+			"description": "Automerge every update of devDependencies",
+			"matchDepTypes": ["devDependencies"],
 			"automerge": true
 		}
 	]
