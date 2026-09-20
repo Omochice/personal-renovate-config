@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.18.0](https://github.com/Omochice/personal-renovate-config/compare/v1.17.0...v1.18.0) (2026-09-20)
+
+
+### Features
+
+* automerge every update of devDependencies ([#1989](https://github.com/Omochice/personal-renovate-config/issues/1989)) ([b15e7ff](https://github.com/Omochice/personal-renovate-config/commit/b15e7ff30656aa2cce98be30ac95f9559d8563b9))
+* read vulnerability alerts from osv.dev ([#1979](https://github.com/Omochice/personal-renovate-config/issues/1979)) ([21f881f](https://github.com/Omochice/personal-renovate-config/commit/21f881f47e624d7a773c1c2bf162061b03f5632c))
+
 ## [1.17.0](https://github.com/Omochice/personal-renovate-config/compare/v1.16.0...v1.17.0) (2026-08-11)
 
 
