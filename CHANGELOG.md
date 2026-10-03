@@ -1,5 +1,16 @@
 # Changelog
 
+## [2.0.0](https://github.com/Omochice/personal-renovate-config/compare/v1.18.0...v2.0.0) (2026-10-03)
+
+
+### ⚠ BREAKING CHANGES
+
+* the dev-engines preset is removed and no longer extended by default.
+
+### Features
+
+* remove dev-engines preset ([#2041](https://github.com/Omochice/personal-renovate-config/issues/2041)) ([4467a25](https://github.com/Omochice/personal-renovate-config/commit/4467a25742b2d46abb345fd92576b43ec80e9fe8))
+
 ## [1.18.0](https://github.com/Omochice/personal-renovate-config/compare/v1.17.0...v1.18.0) (2026-09-20)
 
 
