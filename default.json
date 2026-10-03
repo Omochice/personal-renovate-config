@@ -7,7 +7,6 @@
 		":prHourlyLimitNone",
 		"github>Omochice/personal-renovate-config//auto-merge#v1.18.0",
 		"github>Omochice/personal-renovate-config//biomejs#v1.18.0",
-		"github>Omochice/personal-renovate-config//dev-engines#v1.18.0",
 		"github>Omochice/personal-renovate-config//gitlab#v1.18.0",
 		"github>Omochice/personal-renovate-config//mise#v1.18.0",
 		"github>Omochice/personal-renovate-config//oxc#v1.18.0",
