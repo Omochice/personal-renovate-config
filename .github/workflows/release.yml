@@ -15,11 +15,6 @@ jobs:
     permissions:
       contents: write
       pull-requests: write
-    outputs:
-      release_created: ${{ steps.release.outputs.release_created }}
-      tag_name: ${{ steps.release.outputs.tag_name }}
-      prs_created: ${{ steps.release.outputs.prs_created }}
-      pr: ${{ steps.release.outputs.pr }}
     steps:
       - uses: actions/create-github-app-token@64ab729a6294000f5aa4a4bc0b73d1f32bc45510 # v3.3.0
         id: app-token
@@ -34,43 +29,3 @@ jobs:
           token: ${{ steps.app-token.outputs.token }}
           config-file: .github/release-please-config.json
           manifest-file: .github/release-please-manifest.json
-  increment-version:
-    needs: release-please
-    timeout-minutes: 5
-    runs-on: ubuntu-latest
-    permissions:
-      contents: write
-    if: ${{ needs.release-please.outputs.prs_created == 'true' }}
-    steps:
-      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
-        with:
-          persist-credentials: false
-          token: ${{ secrets.GITHUB_TOKEN }}
-          ref: ${{ fromJSON(needs.release-please.outputs.pr).headBranchName }}
-          fetch-depth: 0
-      - uses: actions/create-github-app-token@64ab729a6294000f5aa4a4bc0b73d1f32bc45510 # v3.3.0
-        id: app-token
-        with:
-          client-id: ${{ vars.RELEASE_CLIENT_ID }}
-          private-key: ${{ secrets.RELEASE_PRIVATE_KEY }}
-          permission-contents: write
-      - uses: pnpm/action-setup@ea17c68df8912ef543352723c149a84f56e3d413 # v6.1.0
-      - uses: actions/setup-node@949feb2413d6458794dcd2491c4babbbce0c15c1 # v7.1.0
-        with:
-          node-version: lts/*
-          cache: pnpm
-      - run: |
-          sudo apt-get update
-          sudo apt-get install -y moreutils
-      - run: pnpm install
-      - run: |
-          jq --arg VERSION "v$(jq -r '.["."]' .github/release-please-manifest.json)" '.extends[] |= if test("#") then (split("#") | .[1] = $VERSION | join("#")) else . end' default.json | sponge default.json
-          git config user.name "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
-          git remote set-url origin "https://x-access-token:${APP_TOKEN}@github.com/${{ github.repository }}"
-          pnpm run fmt
-          git add default.json
-          git commit -m "chore: bump pinned version"
-          git push
-        env:
-          APP_TOKEN: ${{ steps.app-token.outputs.token }}
