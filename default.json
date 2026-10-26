@@ -10,6 +10,8 @@
 		"./manager/gitlab",
 		"./manager/mise",
 		"./schema/oxc",
+		"./schema/devbox",
+		"./schema/knip",
 		"./grouping/playwright",
 		"./manager/pnpm-nodeversion",
 		"./grouping/devbox",
