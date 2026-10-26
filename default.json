@@ -17,6 +17,7 @@
 		"github>Omochice/personal-renovate-config//grouping/pnpm#v2.0.0",
 		"github>Omochice/personal-renovate-config//grouping/slidev#v2.0.0",
 		"github>Omochice/personal-renovate-config//grouping/takumi-js#v2.0.0",
+		"github>Omochice/personal-renovate-config//grouping/tsdown#v2.1.0",
 		"github>Omochice/personal-renovate-config//replacement/release-please-action.json#v2.0.0",
 		"github>Omochice/personal-renovate-config//replacement/textlint-rule-preset-ai-writing.json#v2.0.0"
 	],
