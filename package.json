@@ -13,7 +13,7 @@
 		"fmt:json": "biome format ./ --write",
 		"fmt:package": "sort-package-json",
 		"test": "npm-run-all test:*",
-		"test:validate": "renovate-config-validator --strict default.json nix.json auto-merge.json biomejs.json gitlab.json mise.json oxc.json playwright.json pnpm-nodeversion.json replacement/*.json grouping/*.json"
+		"test:validate": "renovate-config-validator --strict default.json nix.json automerge/*.json grouping/*.json manager/*.json replacement/*.json schema/*.json"
 	},
 	"devDependencies": {
 		"@biomejs/biome": "2.6.2",
