@@ -1,0 +1,14 @@
+{
+	"$schema": "https://docs.renovatebot.com/renovate-schema.json",
+	"description": "update $schema for devbox",
+	"customManagers": [
+		{
+			"customType": "jsonata",
+			"fileFormat": "json",
+			"managerFilePatterns": ["devbox.json"],
+			"matchStrings": ["{ 'currentValue': $split($.'$schema', '/')[-3] }"],
+			"datasourceTemplate": "github-releases",
+			"depNameTemplate": "jetify-com/devbox"
+		}
+	]
+}
