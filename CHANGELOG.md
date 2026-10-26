@@ -1,5 +1,19 @@
 # Changelog
 
+## [3.0.0](https://github.com/Omochice/personal-renovate-config/compare/v2.0.0...v3.0.0) (2026-10-26)
+
+
+### ⚠ BREAKING CHANGES
+
+* grouping/knip and grouping/devbox no longer update $schema; extend schema/knip and schema/devbox as well to keep that.
+* Renovate 44.x releases that predate relative preset references (renovatebot/renovate#45211) can no longer resolve this preset.
+
+### Features
+
+* add grouping rule for tsdown ([#2135](https://github.com/Omochice/personal-renovate-config/issues/2135)) ([d635745](https://github.com/Omochice/personal-renovate-config/commit/d63574531a2525110d2f581b6242b7982e579992))
+* keep only entry-point presets at the repository root ([#2140](https://github.com/Omochice/personal-renovate-config/issues/2140)) ([9d95d35](https://github.com/Omochice/personal-renovate-config/commit/9d95d354c4f6c4635382b5070b6afe1715c66f8b))
+* resolve bundled presets from the same tag as default ([#2138](https://github.com/Omochice/personal-renovate-config/issues/2138)) ([61bc4aa](https://github.com/Omochice/personal-renovate-config/commit/61bc4aa9eab90c5730a88dfb670091029e644fde))
+
 ## [2.0.0](https://github.com/Omochice/personal-renovate-config/compare/v1.18.0...v2.0.0) (2026-10-03)
 
 
