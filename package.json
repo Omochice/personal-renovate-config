@@ -20,7 +20,7 @@
 		"jsonata": "2.2.2",
 		"npm-run-all2": "9.0.4",
 		"re2": "1.27.0",
-		"renovate": "44.211.0",
+		"renovate": "44.215.0",
 		"sort-package-json": "4.1.0",
 		"vitest": "5.1.0",
 		"yaml": "2.9.1"
